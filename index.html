@@ -26,6 +26,7 @@
 		        							<th>tel</th>
 		        							<th>fax</th>
 		        							<th>mail</th>
+		        			
 		        						</tr>
 		        					</table>
 		        				</div>
@@ -54,7 +55,7 @@ $(document).ready(function(){
 	  //$('#map').jMapping();
 	  
 	  var $centri = $("#table");
-	  
+	  var google_contacts_csv = '';       
 	  var html_centri = "";
 	  _.each(json,function(centro,index){
 	  	
@@ -73,12 +74,16 @@ $(document).ready(function(){
 	  			html_centri +="<td>"+ centro.address +"</td>";
 	  			html_centri +="<td>"+ centro.tel +"</td>";
 	  			html_centri +="<td>"+ centro.fax +"</td>";
-	  			html_centri +="<td><a href='mailto:"+ centro.mail +"?Body="+ centro.address +"' targert='_blank'>"+ centro.mail +"</a></td>";
+	  			html_centri +="<td><a href='mailto:"+ centro.mail  +"' targert='_blank'>"+ centro.mail +"</a></td>";
 	  		
 	  		html_centri +="</tr>";
+	  		                      
+	  		google_contacts_csv +='"'+centro.address+'",,,,,,,,,,,,,,,,,,,,,,,,,,* My Contacts ::: Centri Italiani,* Work,"'+centro.mail+'",Work,'+centro.tel+',Work Fax,'+centro.fax+',Work,"'+centro.address+'",'+centro.address+',,,,,,,Profile,"'+centro.url+'",team,"'+centro.persons+'"'
+	  		google_contacts_csv +="\n";
 
 	  });
 	  
+	  //console.log(google_contacts_csv);
 	  $centri.append(html_centri);
 	 
 });

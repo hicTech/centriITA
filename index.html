@@ -66,7 +66,7 @@ $(document).ready(function(){
 	  		
 	  		html_centri +="<tr>";
 	  		
-	  			html_centri +="<td>"+ index +"</td>";
+	  			html_centri +="<td>"+ parseInt(index+1) +"</td>";
 	  			html_centri +="<td><a href='"+ centro.url +"' target='_blank'>dati</a></td>";
 	  			html_centri +="<td>"+ centro.city +"</td>";
 	  			html_centri +="<td>"+ centro.team +"</td>";
@@ -84,15 +84,15 @@ $(document).ready(function(){
 	  		var contact_url = (_.is(centro.url))? centro.url.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
 	  		var contact_persons = (_.is(centro.persons))? centro.persons.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
 	  		                      
-	  		google_contacts_csv +='"'+contact_name.substr(0,50)+'",,,,,,,,,,,,,,,,,,,,,,,,,,* My Contacts ::: Centri Italiani,* Work,"'+contact_mail+'",Work,'+contact_tel+',Work Fax,'+centro.fax+',Work,"'+contact_name+'",'+contact_name.substr(0,50)+',,,,,,,Profile,"'+contact_url+'",team,"'+contact_persons+'"'
+	  		google_contacts_csv +='"'+contact_name.substr(0,50)+'",,,,,,,,,,,,,,,,,,,,,,,,,,* My Contacts ::: Centri Italiani,* Work,"'+contact_mail+'",Work,"'+contact_tel+'",Work Fax,"'+centro.fax+'",Work,"'+contact_name+'","'+contact_name.substr(0,50)+'",,,,,,,Profile,"'+contact_url+'",team,"'+contact_persons+'"'
 	  		google_contacts_csv +="\n";
 	  		
 	  		
 
 	  });
 	  
-	  //console.log(google_contacts_csv);
-	  console.log(_.toStr(json));
+	  console.log(google_contacts_csv);
+	  //console.log(_.toStr(json));
 	  $centri.append(html_centri);
 	 
 });

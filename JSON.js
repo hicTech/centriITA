@@ -9,7 +9,7 @@ var json = [
     "mail": "miacobelli@gentium.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=19&team=1",
     "teamNumber": "Team19",
-    "city": ""
+    "city": "Como"
   },
   {
     "team": "Team21",
@@ -18,7 +18,7 @@ var json = [
     "mail": "elke.engstroem@novartis.com",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=21&team=1",
     "teamNumber": "Team21",
-    "city": ""
+    "city": "Origgio"
   },
   {
     "team": "Team825",
@@ -152,7 +152,7 @@ var json = [
   {
     "team": "Team741",
     "persons": "Porta, Fulvio-Notarangelo, LuigiD.-Mazzolari, Evelina-Lanfranchi, Arnalda-Gulino, Virginia-Grassi, Veronica",
-    "address": "Universitádegli Studidi Brescia Clinica Pediatrica Spedali Civili, P.le Spedali Civili 25123 Brescia",
+    "address": "Universitá degli Studidi Brescia Clinica Pediatrica Spedali Civili, P.le Spedali Civili 25123 Brescia",
     "tel": "39-030-399-5715",
     "fax": "39-030-338-8099",
     "mail": "fulvio.porta@gmail.com",
@@ -511,14 +511,6 @@ var json = [
     "city": "Milano"
   },
   {
-    "team": " - ",
-    "persons": "Babic, Aleksandra",
-    "mail": "aleksandra.babic@ieo.it",
-    "address": "-",
-    "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=10144",
-    "teamNumber": "Milano"
-  },
-  {
     "team": "Team543",
     "persons": "Narni, Franco-Bresciani, Paola-Mariano, Maria-Ceccherelli, Giovani-Luppi, Mario-Pierazzi, Cinzia-Cuoghi, Angela",
     "address": "Uni. Modena, Policlinico Departmentof Oncologyand Hematology Via del Pozzo 71 41124 Modena",
@@ -714,22 +706,6 @@ var json = [
     "mail": "azambelli@fsm.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=771&team=1",
     "teamNumber": "PaviaTeam771",
-    "city": "Pavia"
-  },
-  {
-    "team": " - ",
-    "persons": "Bergamaschi, Paola",
-    "mail": "p.bergamaschi@smatteo.pv.it",
-    "address": "-",
-    "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=10404",
-    "city": "Pavia"
-  },
-  {
-    "team": " - ",
-    "persons": "Perotti, Cesare",
-    "mail": "c.perotti@smatteo.pv.it",
-    "address": "-",
-    "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=10775",
     "city": "Pavia"
   },
   {

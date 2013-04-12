@@ -77,14 +77,21 @@ $(document).ready(function(){
 	  			html_centri +="<td><a href='mailto:"+ centro.mail  +"' targert='_blank'>"+ centro.mail +"</a></td>";
 	  		
 	  		html_centri +="</tr>";
+	  		
+	  		var contact_name = (_.is(centro.address))? centro.address.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";     //rimuovo spazi bianchi multipli e spazi bianchi iniziali 
+	  		var contact_mail = (_.is(centro.mail))? centro.mail.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
+	  		var contact_tel = (_.is(centro.tel))? centro.tel.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
+	  		var contact_url = (_.is(centro.url))? centro.url.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
+	  		var contact_persons = (_.is(centro.persons))? centro.persons.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
 	  		                      
-	  		google_contacts_csv +='"'+centro.address+'",,,,,,,,,,,,,,,,,,,,,,,,,,* My Contacts ::: Centri Italiani,* Work,"'+centro.mail+'",Work,'+centro.tel+',Work Fax,'+centro.fax+',Work,"'+centro.address+'",'+centro.address+',,,,,,,Profile,"'+centro.url+'",team,"'+centro.persons+'"'
+	  		google_contacts_csv +='"'+contact_name.substr(0,50)+'",,,,,,,,,,,,,,,,,,,,,,,,,,* My Contacts ::: Centri Italiani,* Work,"'+contact_mail+'",Work,'+contact_tel+',Work Fax,'+centro.fax+',Work,"'+contact_name+'",'+contact_name.substr(0,50)+',,,,,,,Profile,"'+contact_url+'",team,"'+contact_persons+'"'
 	  		google_contacts_csv +="\n";
 
 	  });
 	  
-	  //console.log(google_contacts_csv);
+	  console.log(google_contacts_csv);
 	  $centri.append(html_centri);
 	 
 });
 </script>
+

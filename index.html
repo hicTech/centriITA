@@ -86,10 +86,13 @@ $(document).ready(function(){
 	  		                      
 	  		google_contacts_csv +='"'+contact_name.substr(0,50)+'",,,,,,,,,,,,,,,,,,,,,,,,,,* My Contacts ::: Centri Italiani,* Work,"'+contact_mail+'",Work,'+contact_tel+',Work Fax,'+centro.fax+',Work,"'+contact_name+'",'+contact_name.substr(0,50)+',,,,,,,Profile,"'+contact_url+'",team,"'+contact_persons+'"'
 	  		google_contacts_csv +="\n";
+	  		
+	  		
 
 	  });
 	  
-	  console.log(google_contacts_csv);
+	  //console.log(google_contacts_csv);
+	  console.log(_.toStr(json));
 	  $centri.append(html_centri);
 	 
 });

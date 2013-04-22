@@ -2,74 +2,86 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		
 <meta http-equiv="X-UA-Compatible" content="chrome=1">
 <title> Centri ITA </title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/button/button.css">
 <!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3.5&sensor=false"></script>-->
 <script type="text/javascript" src="JSON.js"></script>
 
 <script type="text/javascript" src="jquery.js"></script>
-    <script type="text/javascript" src="underscore/underscore.js"></script>
-    <script type="text/javascript" src="underscore/_plus.js"></script>
+<script type="text/javascript" src="hicGoogleDocsParser.js"></script>
+<script type="text/javascript" src="underscore/underscore.js"></script>
+<script type="text/javascript" src="underscore/_plus.js"></script>
+
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="spinner/spinners.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="spinner/spinners.min.js"></script>
 
 
 <body>
-	
-
-		        				<div style="width:100%">
-		        					<table class="TABLE" id="table">
-		        						<tr>
-		        							<th>&nbsp;</th>
-		        							<th>link</th>
-		        							<th>city</th>
-		        							<th>Team</th>
-		        							<th>persone</th>
-		        							<th>indirizzo</th>
-		        							<th>tel</th>
-		        							<th>fax</th>
-		        							<th>mail</th>
-		        			
-		        						</tr>
-		        					</table>
-		        				</div>
-		        			
-
-
-
-
-
-
-
-
-
-
-
-
-
-	</div>
-				
+	<div><button class="BUTTON green" onclick="location.href='stampaLettere.html'">stampa lettere</button><button class="BUTTON green" onclick="location.href='index.html'">vedi centri</button></div>
+	<div style="width:100%">
+		<table class="TABLE" id="table">
+			
+		</table>
+	</div>	
 </body>
 	
 	
 <script>
 
-$(document).ready(function(){
-	  //$('#map').jMapping();
-	  
-	  var $centri = $("#table");
-	  var google_contacts_csv = '';       
-	  var html_centri = "";
-	  _.each(json,function(centro,index){
+
+hicGoogleDocsParser({
+		"url":"https://docs.google.com/spreadsheet/pub?key=0At-edMs8aNDBdC0wTHJPeUhMd2RqMmk2cnJFVmI2NWc&output=html",
+		"callback":"stampaCentri",
+		"loadingTarget":"#table",
+		"target" : "#table"
+	});
+	
+function stampaCentri(result,options){
+	var google_contacts_csv = '';       
+	var html_centri = "";
+	
+	html_centri += "<tr>";
+	_.each(result.th,function(intestazione){
+		html_centri +="<th>"+intestazione+"</th>";
+	})
+	html_centri += "</tr>";
+	
+	
+	_.each(result.trs,function(riga){
+		html_centri += "<tr>";
+		
+		_.each(riga,function(valore){
+			html_centri += "<td>"+valore+"</td>";
+		})
+		
+		html_centri += "</tr>";
+	});
+	
+	$(options.target).append(html_centri);
+	
+
+	/*
+	 *  CSV per importazione google contacts
+	 */
+		
+	
+	  /*
+	  _.each(result,function(centro,index){
 	  	
 	  		
 	  		var team = $("<div>"+ centro.team +"</div>");
 	  		
 	  		
-	  		
 	  		html_centri +="<tr>";
 	  		
 	  			html_centri +="<td>"+ parseInt(index+1) +"</td>";
-	  			html_centri +="<td><a href='"+ centro.url +"' target='_blank'>dati</a></td>";
+	  			html_centri +="<td><a href='"+ centro.url +"' target='_blank'>"+ centro.url +"</a></td>";
 	  			html_centri +="<td>"+ centro.city +"</td>";
 	  			html_centri +="<td>"+ centro.team +"</td>";
+	  			html_centri +="<td>"+ centro.password +"</td>";
 	  			html_centri +="<td>"+ centro.persons +"</td>";
 	  			html_centri +="<td>"+ centro.address +"</td>";
 	  			html_centri +="<td>"+ centro.tel +"</td>";
@@ -84,17 +96,19 @@ $(document).ready(function(){
 	  		var contact_url = (_.is(centro.url))? centro.url.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
 	  		var contact_persons = (_.is(centro.persons))? centro.persons.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
 	  		                      
-	  		google_contacts_csv +='"'+contact_name.substr(0,50)+'",,,,,,,,,,,,,,,,,,,,,,,,,,* My Contacts ::: Centri Italiani,* Work,"'+contact_mail+'",Work,"'+contact_tel+'",Work Fax,"'+centro.fax+'",Work,"'+contact_name+'","'+contact_name.substr(0,50)+'",,,,,,,Profile,"'+contact_url+'",team,"'+contact_persons+'"'
+	  		google_contacts_csv +='"'+contact_name.substr(0,50)+'",,,,,,,,,,,,,,,,,,,,,,,,,,* My Contacts ::: Centri Italiani,* Work,"'+contact_mail+'",Work,"'+contact_tel+'",Work Fax,"'+centro.fax+'",Work,"'+contact_name+'","'+contact_name.substr(0,50)+'",,,,,,,Profile,"'+contact_url+'",città,"'+centro.city+'",team,"'+contact_persons+'"'
 	  		google_contacts_csv +="\n";
-	  		
+	  
 	  		
 
 	  });
 	  
 	  console.log(google_contacts_csv);
-	  //console.log(_.toStr(json));
-	  $centri.append(html_centri);
-	 
-});
+	  console.log(_.toStr(result));
+	  
+	  */
+	  
+}	
+
 </script>
 

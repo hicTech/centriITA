@@ -1,5 +1,5 @@
 body{
-	font-family:helvetica
+	font-family:helvetica;
 }
 .TABLE-title{
 	background-color: #888;
@@ -14,7 +14,7 @@ body{
 }
 
 .TABLE{
-	font-size: 13px;
+	font-size: 11px;
 	width: 100%;
 	border-collapse: collapse;
 	text-align: left;
@@ -50,7 +50,7 @@ body{
 	cursor: pointer;
 	text-align: center;
 	vertical-align: middle;
-	font-size:12px;
+	font-size:11px;
 	
 }
 

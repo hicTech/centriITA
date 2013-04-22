@@ -1,7 +1,7 @@
 
 var json = [
   {
-    "team": "Team19",
+    "team": "team19",
     "persons": "Iacobelli, Massimo-Hoyle, Margaret-Echart, Cinara-Islam, Khalid",
     "address": "Gentium SpA Piazza XX Settembere, 2 Villa Guardia (CO) 22079",
     "tel": "+39031385217",
@@ -9,50 +9,55 @@ var json = [
     "mail": "miacobelli@gentium.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=19&team=1",
     "teamNumber": "Team19",
-    "city": "Como"
+    "city": "Como",
+    "password": 62857
   },
   {
-    "team": "Team21",
+    "team": "team21",
     "persons": "Engstroem, Elke-Tanguler, Duygu-D´Enrico, Federica-Fincato, Gianluca-Swan, Craig",
     "address": "Novartis Farma SpA L.go U. Boccioni 1 Origgio I-21040",
     "mail": "elke.engstroem@novartis.com",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=21&team=1",
     "teamNumber": "Team21",
-    "city": "Origgio"
+    "city": "Origgio",
+    "password": 17661
   },
   {
-    "team": "Team825",
+    "team": "team825",
     "persons": "Levis, Alessandro-Corsetti, MariaTeresa-Pini, Massimo-Salvi, Flavia-Pesce, Annarita-Tamiazzo, Stefania",
-    "address": "HSS. Antonioe Biagio Haematology Department Via Venezia 16 15121 Alessandria",
+    "address": "HSS. Antonioe Biagio Dipartimento di Ematologia Via Venezia 16 15121 Alessandria",
     "tel": "39-(0)131-206-156/817",
     "fax": "39-(0)131-261-029",
     "mail": "alevis@ospedale.al.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=825&team=1",
     "teamNumber": "AlessandriaTeam825",
-    "city": "Alessandria"
+    "city": "Alessandria",
+    "password": 7345
   },
   {
-    "team": "Team788",
+    "team": "team788",
     "persons": "Olivieri, Attilio-Leoni, Pietro-Scortechini, Ilaria-Montanari, Mauro-Montevecchi, Claudia-Barzetti, Lorella-Mancini, Giorgia",
-    "address": "Azienda Ospedali Riuniti di Ancona Departmentof Hematology Ancona University Via Conca, 1 60020 Ancona",
+    "address": "Azienda Ospedali Riuniti di Ancona Dipartimento di Ematologia Università di Ancona Via Conca, 1 60020 Ancona",
     "tel": "39-071-596-4235",
     "fax": "39-071-218-3448",
     "mail": "a.olivieri@univpm.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=788&team=1",
     "teamNumber": "AnconaTeam788",
-    "city": "Ancona"
+    "city": "Ancona",
+    "password": 40110
   },
   {
-    "team": "Team119",
+    "team": "team119",
     "persons": "Galieni, Piero-Bigazzi, Catia-Falcioni, Sadia-diBuo, MariaRita",
-    "address": "Mazzoni Hospital Haematology Service Via Degli Iris 6 63100 Ascoli Piceno",
+    "address": "Ospedale Mazzoni Dipartimento di Ematologia Via Degli Iris 6 63100 Ascoli Piceno",
     "mail": "ematologia@asl13.marche.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=119&team=1",
     "teamNumber": "AscoliPicenoTeam119",
-    "city": "AscoliPiceno"
+    "city": "AscoliPiceno",
+    "password": 86460
   },
   {
-    "team": "Team789",
+    "team": "team789",
     "persons": "Storti, Gabriella-Cantore, Nicola-Volpe, Silvestro-Egidio, Fina",
     "address": "A.O.R.N.SAN. GMOSCATI Ematologia 83100 Avellino",
     "tel": "39-0825-203-235",
@@ -60,10 +65,11 @@ var json = [
     "mail": "n.cantore@virgilio.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=789&team=1",
     "teamNumber": "AvellinoTeam789",
-    "city": "Avellino"
+    "city": "Avellino",
+    "password": 17283
   },
   {
-    "team": "Team162",
+    "team": "team162",
     "persons": "Michieli, Mariagrazia-Rupolo, Maurizio-Lleshi, Arben-Mazzucato, Mario-Abbruzzese, Luciano-Sartor, Ivana-Durante, Cristina-Sartor, Ivana-Zanet, Ernesto",
     "address": "Centrodi Riferimento Oncologico C. R. O. IRCCS Aviano Via Franco Gallininº2 33081 Aviano",
     "tel": "39-04-34-659-020",
@@ -71,10 +77,11 @@ var json = [
     "mail": "altedosi@cro.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=162&team=1",
     "teamNumber": "AvianoTeam162",
-    "city": "Aviano"
+    "city": "Aviano",
+    "password": 36356
   },
   {
-    "team": "Team649",
+    "team": "team649",
     "persons": "Liso, Vincenzo-Specchia, Giorgina-Vito, Pedone-Domenico, Pastore",
     "address": "Università degli Studi di Bari Cattedrae Serviziodi Ematologia Azienda Policlinico Bari Piazza G. Cesare 11 70124 Bari",
     "tel": "+390805478711",
@@ -82,10 +89,11 @@ var json = [
     "mail": "ematba@cimedoc.uniba.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=649&team=1",
     "teamNumber": "BariTeam649",
-    "city": "Bari"
+    "city": "Bari",
+    "password": 70676
   },
   {
-    "team": "Team658",
+    "team": "team658",
     "persons": "Rambaldi, Alessandro-Grassi, Anna-Algarotti, Alessandra-Micò, Caterina-Trunfio, Angela-Oldani, Elena",
     "address": "Ospedali Riuniti di Bergamo Divisione di Ematologia Largo Barozzi, 1 24128 Bergamo",
     "tel": "39-035-269-492/035266148",
@@ -93,31 +101,34 @@ var json = [
     "mail": "arambaldi@ospedaliriuniti.bergamo.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=658&team=1",
     "teamNumber": "BergamoTeam658",
-    "city": "Bergamo"
+    "city": "Bergamo",
+    "password": 9490
   },
   {
-    "team": "Team240",
+    "team": "team240",
     "persons": "Bandini, Giuseppe-Bonifazi, Francesca-Cavo, Michele-Motta, Mariarosa-Rizzi, Simonetta-Gori, Erika-Bertoni, Rita",
-    "address": "Bologna University, S. Orsola- Malpighi Hospital Institute of Hematology Medical Oncology A Seràgnoli Via Massarenti 9 40138 Bologna",
+    "address": "Ospedale S. Orsola - Malpighi Istituto di Ematologia ed Oncologia A Seràgnoli Via Massarenti 9 40138 Bologna",
     "tel": "39-051-6363833/3680/3799",
     "fax": "39-051-6364037",
     "mail": "giuseppe.bandini@unibo.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=240&team=1",
     "teamNumber": "BolognaTeam240",
-    "city": "Bologna"
+    "city": "Bologna",
+    "password": 36613
   },
   {
-    "team": "Team453",
+    "team": "team453",
     "persons": "Abate, Massimo-Cesari, Marilena-Palmerini, Emanuela-Boschi, Rita-Marchesi, Emanuela",
-    "address": "Istituto Ortopedico Rizzoli Departmentof Muscolo- Skeletal Oncology Via Pupilli 1 40136 Bologna",
+    "address": "Istituto Ortopedico Rizzoli Dipartimento Muscolo-Scheletrico Oncologia Via Pupilli 1 40136 Bologna",
     "tel": "+93-051-636-6990",
     "mail": "massimo.abate@ior.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=453&team=1",
     "teamNumber": "BolognaTeam453",
-    "city": "Bologna"
+    "city": "Bologna",
+    "password": 1543
   },
   {
-    "team": "Team790",
+    "team": "team790",
     "persons": "Pession, Andrea-Prete, Arcangelo-Rondelli, Roberto-DiLeo, Korinne-Melchionda, Fraia-Franzoni, Monica-Massetti, Riccardo-Brazzini, Valentina",
     "address": "Azienda Ospedaliero Universitaria Policlinico S. Orsola- Malpighi Bologna Via Albertoni 15 40138 Bologna",
     "tel": "39-051-636-4664",
@@ -125,32 +136,35 @@ var json = [
     "mail": "tmoped@aosp.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=790&team=1",
     "teamNumber": "BolognaTeam790",
-    "city": "Bologna"
+    "city": "Bologna",
+    "password": 1716
   },
   {
-    "team": "Team299",
+    "team": "team299",
     "persons": "Cortelazzo, Sergio-Casini, Marco-Pinna, Andrea-Cavattoni, Irene-Marabese, Alessandra-Deoola, Sara",
-    "address": "Hospital San Maurizio Dept.of Hematology- BMT Unitvia Lorenz Boehler 5 39100 Bolzano",
+    "address": "Ospedale San Maurizio Dipartimento di Ematologia - BMT Unit via Lorenz Boehler 5 39100 Bolzano",
     "tel": "39-0471-908-807/-699",
     "fax": "39-0471-908-703",
     "mail": "emat@asbz.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=299&team=1",
     "teamNumber": "BolzanoTeam299",
-    "city": "Bolzano"
+    "city": "Bolzano",
+    "password": 77500
   },
   {
-    "team": "Team288",
+    "team": "team288",
     "persons": "Rossi, Giuseppe-Morello, Enrico-Re, Alessandro-Fenotti, Cristina-Cavalli, Lara",
-    "address": "Spedali Civili- Brescia Hematology Division Department of Medical Oncology Piazzale Spedali Civili 1 25100 Brescia",
+    "address": "Ospeadali Civili - Brescia Dipartimento di medicina Oncologica divisione Ematologia - Piazzale Spedali Civili 1 25100 Brescia",
     "tel": "39-030-399-5438",
     "fax": "39-030-3700852",
     "mail": "rossig@med.unibs.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=288&team=1",
     "teamNumber": "BresciaTeam288",
-    "city": "Brescia"
+    "city": "Brescia",
+    "password": 81208
   },
   {
-    "team": "Team741",
+    "team": "team741",
     "persons": "Porta, Fulvio-Notarangelo, LuigiD.-Mazzolari, Evelina-Lanfranchi, Arnalda-Gulino, Virginia-Grassi, Veronica",
     "address": "Universitá degli Studidi Brescia Clinica Pediatrica Spedali Civili, P.le Spedali Civili 25123 Brescia",
     "tel": "39-030-399-5715",
@@ -158,21 +172,23 @@ var json = [
     "mail": "fulvio.porta@gmail.com",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=741&team=1",
     "teamNumber": "BresciaTeam741",
-    "city": "Brescia"
+    "city": "Brescia",
+    "password": 12297
   },
   {
-    "team": "Team920",
+    "team": "team920",
     "persons": "Quarta, Giovanni-Loseto, Giacomo-Mele, Giuseppe",
-    "address": "Perrino Hospital Dept.of Ha 0 Brindisi",
+    "address": "Ospedale Perrino Dept.of Ha 0 Brindisi",
     "tel": "39-0831537507",
     "fax": "39-0831-537-613",
     "mail": "",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=920&team=1",
     "teamNumber": "BrindisiTeam920",
-    "city": "Brindisi"
+    "city": "Brindisi",
+    "password": 12844
   },
   {
-    "team": "Team927",
+    "team": "team927",
     "persons": "Bregni, Marco-Landoni, Carlo-Crovetti, Giovanni-Bertolli, Vanda-LaTargia, Maria-Sprocati, Patrizia",
     "address": "Azienda Ospedaliera Ospedale di circolodi Busto Arsizio Oncologia Medica Piazza Solaro No 3 21052 Busto Arsizio",
     "tel": "+390331699489",
@@ -180,10 +196,11 @@ var json = [
     "mail": "mbregni@aobusto.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=927&team=1",
     "teamNumber": "BustoArsizioTeam927",
-    "city": "BustoArsizio"
+    "city": "BustoArsizio",
+    "password": 96440
   },
   {
-    "team": "Team8412",
+    "team": "team8412",
     "persons": "Bregni, Marco-Bay, Jacques-Olivier-Badoglio, Manuela",
     "address": "Solid Tumours Working Party Azienda Ospedaliera Ospedale di Circolo di Busto Arsizio Oncologia Medica Piazza Solaro No 3 21052 Busto Arsizio",
     "tel": "+390331699489",
@@ -191,21 +208,23 @@ var json = [
     "mail": "mbregni@milanocuore.eu",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=8412&team=1",
     "teamNumber": "BustoArsizioTeam8412",
-    "city": "BustoArsizio"
+    "city": "BustoArsizio",
+    "password": 2302
   },
   {
-    "team": "Team791",
+    "team": "team791",
     "persons": "Angelucci, Emanuele-Baronciani, Donatella-Depau, Cristina-Piras, Alba-Culurgioni, Fabio-Zucca, Silvia",
-    "address": "Ospedale A. Businco Cagliari Haematology Transplant Centre Wilma Deplano Via Jenner 09121 Cagliari",
+    "address": "Ospedale A. Businco Cagliari - Ematologia - Cetro trapianti Wilma Deplano Via Jenner 09121 Cagliari",
     "tel": "+39-070-6095312",
     "fax": "+39-070-609-5312",
     "mail": "emnang@tin.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=791&team=1",
     "teamNumber": "CagliariTeam791",
-    "city": "Cagliari"
+    "city": "Cagliari",
+    "password": 24735
   },
   {
-    "team": "Team811",
+    "team": "team811",
     "persons": "LaNasa, Giorgio-Vacca, Adriana-Corrias, Stefano-Koopmans, AnnaMaria",
     "address": "Adultand Paediatric Transplant Centre Centro trapianti di  Midollo Osseo P. O. R. Binaghi Vials Guadazzonis, 3 09126 Cagliari",
     "tel": "39-070-609-2800/1",
@@ -213,19 +232,21 @@ var json = [
     "mail": "lanasa@tiscali.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=811&team=1",
     "teamNumber": "CagliariTeam811",
-    "city": "Cagliari"
+    "city": "Cagliari",
+    "password": 18345
   },
   {
-    "team": "Team811",
+    "team": "team811",
     "persons": "Orofino, MariaGrazia-Cau, Paola-Addari, MariaCarmen",
     "address": "Paediatric Transplant Centre Centro trapianti di Midollo Osseo Ospedale Microcitemico Via Edward Jenners/n 09121 Cagliari",
     "mail": "ca2tmo@mcweb.unica.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=811&team=2",
     "teamNumber": "CagliariTeam811",
-    "city": "Cagliari"
+    "city": "Cagliari",
+    "password": 53170
   },
   {
-    "team": "Team792",
+    "team": "team792",
     "persons": "Milone, Giuseppe-Salvatorre, Leotta-Spadaro, Andrea",
     "address": "Ospedale Ferrarotto Divisione Clinicizzatadi Ematologia BMT Unit Via S. Citelli 6 95100 Catania",
     "tel": "39-095-743-5913/6102",
@@ -233,10 +254,11 @@ var json = [
     "mail": "giuseppe.milone@gmail.com",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=792&team=1",
     "teamNumber": "CataniaTeam792",
-    "city": "Catania"
+    "city": "Catania",
+    "password": 61066
   },
   {
-    "team": "Team419",
+    "team": "team419",
     "persons": "Centurioni, Riccardo-Tassetti, Angela-Minnucci, Luisa-Mirabile, Milena-Ferranti, Caterina-Sabbatini, Francesco",
     "address": "Unità Operativa Di Medicina Interna Via P. Ginevri, 1 62012 Civitanove Marche",
     "tel": "+390733823065",
@@ -244,10 +266,11 @@ var json = [
     "mail": "ricentu@tin.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=419&team=1",
     "teamNumber": "CivitanoveMarcheTeam419",
-    "city": "CivitanoveMarche"
+    "city": "CivitanoveMarche",
+    "password": 62120
   },
   {
-    "team": "Team226",
+    "team": "team226",
     "persons": "Lanza, Francesco-Spedini, Pierangelo-Tajana, Monica-Mauro, Endri-Pagliari, Donatella-Pasini, Annalisa",
     "address": "Sez. Ematologia- Centro Trapianti Midollo Osseo, Medicina II Viale Concordia 1 26100 Cremona",
     "tel": "39-0372-405-613/408-105",
@@ -255,54 +278,59 @@ var json = [
     "mail": "f.lanza@ospedale.cremona.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=226&team=1",
     "teamNumber": "CremonaTeam226",
-    "city": "Cremona"
+    "city": "Cremona",
+    "password": 17110
   },
   {
-    "team": "Team606",
+    "team": "team606",
     "persons": "Gallamini, Andrea-Grasso, Mariella-Mordini, Nicola-Mattei, Daniele-Cavallo, Alda",
-    "address": "Az. Ospedaliera S. Crocee Carle Division of Hematology Via Coppino 26 12100 Cuneo",
+    "address": "Az. Ospedaliera S. Crocee Carle - Divisione Ematologia - Via Coppino 26 12100 Cuneo",
     "tel": "39-0171-641-070/642414",
     "fax": "+390171642937",
     "mail": "ematologia@ospedale.cuneo.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=606&team=1",
     "teamNumber": "CuneoTeam606",
-    "city": "Cuneo"
+    "city": "Cuneo",
+    "password": 78860
   },
   {
-    "team": "Team330",
+    "team": "team330",
     "persons": "Cuneo, Antonio-Moretti, Sabrina-Rigolin, GianMatteo-Baruchello, Antonella",
-    "address": "Università di Ferrara St. Anna Hospital Hematology Section Corso Giovecca 203 44100 Ferrara",
+    "address": "Università di Ferrara St. Anna Dipartimento di Ematologia Corso Giovecca 203 44100 Ferrara",
     "tel": "39-0532-209-100",
     "fax": "39-0532-212-142",
     "mail": "cut@unife.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=330&team=1",
     "teamNumber": "FerraraTeam330",
-    "city": "Ferrara"
+    "city": "Ferrara",
+    "password": 5382
   },
   {
-    "team": "Team304",
+    "team": "team304",
     "persons": "Bosi, Alberto-Guidi, Stefano-Lombardini, Letizia-Saccardi, Riccardo-Gozzini, Antonella-Nozzoli, Chiara-Galgano, Letizia-Bartolozzi, Benedetta",
-    "address": "Ospedale di Careggi BMT Unit Departmentof Hematology 50134 Firenze",
+    "address": "Ospedale di Careggi BMT Unit Dipartimento di Ematologia 50134 Firenze",
     "tel": "390557947726",
     "fax": "390557947064",
     "mail": "alberto.bosi@unifi.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=304&team=1",
     "teamNumber": "FirenzeTeam304",
-    "city": "Firenze"
+    "city": "Firenze",
+    "password": 21336
   },
   {
-    "team": "Team304",
+    "team": "team304",
     "persons": "Aricò, Maurizio-Tintori, Veronica-Bambi, Franco-Caselli, Desiree-Brugnolo, Francesca-Frenos, Stefano-Netti, MariaGiovanna",
-    "address": "Azienda Ospedaliero Universitaria Meyer Departmentof Paediatric Haematology Oncology Viale Pieraccini, 24 50139 Firenze",
+    "address": "Azienda Ospedaliera Universitaria Meyer - Dipartimento di Ematologia pediatrica Viale Pieraccini, 24 50139 Firenze",
     "tel": "+39.55.566.2738",
     "fax": "+39.55.566.2746",
     "mail": "m.arico@meyer.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=304&team=2",
     "teamNumber": "FirenzeTeam304",
-    "city": "Firenze"
+    "city": "Firenze",
+    "password": 87864
   },
   {
-    "team": "Team8440",
+    "team": "team8440",
     "persons": "Rambaldi, Alessandro-Bruno, Barbara-Camboni, Agnese-Oneto, Rosi",
     "address": "Italian National BMT Registry- GITMO Ospedale San Martino USL13 Divisione di Ematologia Viale Benedetto XV 16132 Genova",
     "tel": "39-010-355-469",
@@ -310,10 +338,11 @@ var json = [
     "mail": "rosi.oneto@gitmo.net",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=8440&team=1",
     "teamNumber": "GenovaTeam8440",
-    "city": "Genova"
+    "city": "Genova",
+    "password": 61429
   },
   {
-    "team": "Team139",
+    "team": "team139",
     "persons": "Patrone, Franco-Ballestrero, Alberto-Gobbi, Marco",
     "address": "Università di Genova Dept.of Internal Medicine Viale Benedetto X Vn.6 16132 Genova",
     "tel": "39-010-353-8952/8940",
@@ -321,21 +350,23 @@ var json = [
     "mail": "fpatrone@unige.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=139&team=1",
     "teamNumber": "GenovaTeam139",
-    "city": "Genova"
+    "city": "Genova",
+    "password": 14770
   },
   {
-    "team": "Team217",
+    "team": "team217",
     "persons": "Bacigalupo, Andrea-Dominietto, Alida-VanLint, M.T.-Lamparelli, Teresa-Gualandi, Francesca-Marmont, A.M.-Oneto, Rosi-Camboni, Agnese-Frau, Lucia",
-    "address": "Ospedale San Martino Department of Haematology IIL.go R. Benzi 10 16132 Genova",
+    "address": "Ospedale San Martino Dipartimento di Ematologia IIL.go R. Benzi 10 16132 Genova",
     "tel": "39-010-355-469",
     "fax": "39-010-355-583",
     "mail": "andrea.bacigalupo@hsanmartino.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=217&team=1",
     "teamNumber": "GenovaTeam217",
-    "city": "Genova"
+    "city": "Genova",
+    "password": 90739
   },
   {
-    "team": "Team274",
+    "team": "team274",
     "persons": "Dini, Giorgio-Gazzolo, Andrea-Lanino, Edoardo-Faraci, Maura-Morreale, Giuseppe-Dufour, Carlo-Giardino, Stefano-Simona, Calza-Cancedda, Roberta-Deiana, Marco",
     "address": "Institute G. Gaslini Largo G. Gaslini 5 16148 Genova",
     "tel": "39-010-5636-715",
@@ -343,10 +374,11 @@ var json = [
     "mail": "giorgiodini@ospedale-gaslini.ge.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=274&team=1",
     "teamNumber": "GenovaTeam274",
-    "city": "Genova"
+    "city": "Genova",
+    "password": 13338
   },
   {
-    "team": "Team987",
+    "team": "team987",
     "persons": "Carella, AngeloMichele-Congiu, AngelaGiovanna-Nati, Sandro-Capurro, Mara-Congiu, AngelaGiovanna",
     "address": "Azienda Ospedaliera Universitaria San Martino Monoblocco 11- Ponente Largo Rosanna Benzi, 10 16132 Genova",
     "tel": "+39.010.513731",
@@ -354,10 +386,11 @@ var json = [
     "mail": "angelomichele.carella@hsanmartino.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=987&team=1",
     "teamNumber": "GenovaTeam987",
-    "city": "Genova"
+    "city": "Genova",
+    "password": 47642
   },
   {
-    "team": "Team379",
+    "team": "team379",
     "persons": "DeBlasio, Angelo-Zappone, Elisabetta-OrtulaBarbera, Elettra-Caratelli, Patrizia-Coppetelli, Ugo",
     "address": "Ospedale Santa Maria Goretti Ematologia Via Canova 04100 Latina",
     "tel": "+39-0773-655-3710",
@@ -365,10 +398,11 @@ var json = [
     "mail": "emato@online.latina.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=379&team=1",
     "teamNumber": "LatinaTeam379",
-    "city": "Latina"
+    "city": "Latina",
+    "password": 1640
   },
   {
-    "team": "Team868",
+    "team": "team868",
     "persons": "DiRenzo, Nicola-Forese, Pasquale-Pennese, Elsa-Perrone, Stefano-Matera, Rosella",
     "address": "Ospedale Vito Fazzi Haematology&amp; Stem Cell Transplant Unit Piazza F. Muratore, 1c 73100 Lecce",
     "tel": "+390832661922/+39083266104",
@@ -376,10 +410,11 @@ var json = [
     "mail": "nicola.direnzo@fastwebnet.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=868&team=1",
     "teamNumber": "LecceTeam868",
-    "city": "Lecce"
+    "city": "Lecce",
+    "password": 38054
   },
   {
-    "team": "Team298",
+    "team": "team298",
     "persons": "DeGiorgi, Ugo-Fattori, PierPaolo-Migliori, Giuseppe-Brolli, Claudia-Bragagni, Marina-Fabbri, Francesca",
     "address": "Istituto Scientifico Romagnolo per lo Studio e la cura dei Tumori( IRST) Via Piero Maroncelli, 40 47014 Meldola",
     "tel": "39-0543-739100",
@@ -387,21 +422,23 @@ var json = [
     "mail": "francesca.fabbri@irst.emr.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=298&team=1",
     "teamNumber": "MeldolaTeam298",
-    "city": "Meldola"
+    "city": "Meldola",
+    "password": 20325
   },
   {
-    "team": "Team669",
+    "team": "team669",
     "persons": "Pitini, Vincenzo-Siracusano, Luca-Arrigo, Carmela",
-    "address": "Policlinico Universitàrio Messina Oncology- Pathology- Blood Center Oncologia- Medica, Pad. H5ºpiano Via Consolare Valeria 98125 Messina",
+    "address": "Policlinico Universitàrio Messina - Oncologia Medica, Pad. H5ºpiano Via Consolare Valeria 98125 Messina",
     "tel": "39-90-221-3249",
     "fax": "39-90-221-3231",
     "mail": "vpitini@unime.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=669&team=1",
     "teamNumber": "MessinaTeam669",
-    "city": "Messina"
+    "city": "Messina",
+    "password": 34278
   },
   {
-    "team": "Team265",
+    "team": "team265",
     "persons": "Cortelezzi, Agostino-Onida, Francesco-Annaloro, Claudio-Ottani, Laura-Tagliaferri, Elena",
     "address": "Ospedale Maggiore di Milano IRCCS Via Fransesco Sforza, 35 20122 Milano",
     "tel": "39-02-5503-3322",
@@ -409,10 +446,11 @@ var json = [
     "mail": "agostino.cortelezzi@unimi.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=265&team=1",
     "teamNumber": "MilanoTeam265",
-    "city": "Milano"
+    "city": "Milano",
+    "password": 95716
   },
   {
-    "team": "Team269",
+    "team": "team269",
     "persons": "Farina, Gabriella-Bianchi, Celso-Pedretti, Donata-Bianchi, Celso",
     "address": "Ospedale Fatebenefratellie Oftalmico Div. Oncologia Medicae Chemioterapia Corsodi Porta Nuova 23 20121 Milano",
     "tel": "39-02-6363-2223",
@@ -420,65 +458,71 @@ var json = [
     "mail": "progetto.umana@fbf.milano.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=269&team=1",
     "teamNumber": "MilanoTeam269",
-    "city": "Milano"
+    "city": "Milano",
+    "password": 33853
   },
   {
-    "team": "Team294",
+    "team": "team294",
     "persons": "Morra, Enrica-Marenco, Paola-Grillo, Giovanni-Gianpiera, Lanzo",
-    "address": "Ospedale di Niguarda Ca Granda Hematology Department Piazza Ospedale Maggiore 3 20162 Milano",
+    "address": "Ospedale di Niguarda Ca Granda Dipartimento di Ematologia Piazza Ospedale Maggiore 3 20162 Milano",
     "tel": "39-02-6444-2668",
     "fax": "39-02-6444-2033",
     "mail": "enrica.morra@ospedaleniguarda.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=294&team=1",
     "teamNumber": "MilanoTeam294",
-    "city": "Milano"
+    "city": "Milano",
+    "password": 88757
   },
   {
-    "team": "Team331",
+    "team": "team331",
     "persons": "Martinelli, Giovanni-Pastano, Rocco-Laszlo, Daniele-Gigli, Federica-Gardellini, Angelo-Sammassimo, Simona-Clerici, Margherita-Orlando, Laura-Liptrott, Sarah-Calabrese, Liliana",
-    "address": "European Institute of Oncology Via Ripamonti, 435 20141 Milano",
+    "address": "Isituto Europeo di Oncologia - Via Ripamonti, 435 20141 Milano",
     "tel": "39-02-5748-9538/9640",
     "fax": "39-02-57489537",
     "mail": "giovanni.martinelli@ieo.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=331&team=1",
     "teamNumber": "MilanoTeam331",
-    "city": "Milano"
+    "city": "Milano",
+    "password": 90055
   },
   {
-    "team": "Team354",
+    "team": "team354",
     "persons": "Castagna, Luca-Santoro, Armando-Bramanti, Stefania-Sarina, Barbara-Garofalo, Elena-Mauro, Elisa",
-    "address": "Istituto Clinico Humanitas Transplantation Unit Departmentof Oncologyand Haematology Via Manzoni 56 20089 Rozzano Milano",
+    "address": "Istituto Clinico Humanitas Transplantation Dipartimento di Oncologie ed Ematologia - Via Manzoni 56 20089 Rozzano Milano",
     "tel": "39-02-8224-4587",
     "fax": "39-02-8224-4590",
     "mail": "luca.castagna@cancercenter.humanitas.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=354&team=1",
     "teamNumber": "MilanoTeam354",
-    "city": "Milano"
+    "city": "Milano",
+    "password": 56596
   },
   {
-    "team": "Team616",
+    "team": "team616",
     "persons": "Corradini, Paolo-Gianni, Alessandro-Magni, Michele-Luksch, Roberto-Montefusco, Vittorio-Saracino, Lucia-Matteucci, Paola",
-    "address": "Università di Milano Istituto Nazionale dei Tumori Hematology- Bone Marrow Transplantation Unit Via Venezian, 1 20133 Milano",
+    "address": "Università di Milano Istituto Nazionale dei Tumori Ematologia - Unità trapianto midollo osseo Via Venezian, 1 20133 Milano",
     "tel": "00-39-022-390-2950",
     "fax": "00-39-022-390-2908",
     "mail": "paolo.corradini@unimi.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=616&team=1",
     "teamNumber": "MilanoTeam616",
-    "city": "Milano"
+    "city": "Milano",
+    "password": 25809
   },
   {
-    "team": "Team683",
+    "team": "team683",
     "persons": "Tedeschi, Lucilla-Romanelli, Antonella-Vinci, Maria-Pagani, Giada",
-    "address": "S. Carlo Borromeo Hospital Oncology Department Via Pio II, 3 20153 Milano",
+    "address": "Ospedale S. Carlo Borromeo Dipartimento di Oncologia Via Pio II, 3 20153 Milano",
     "tel": "39-024-022-2255",
     "fax": "39-024-022-2323",
     "mail": "Tedeschi.Lucilla@sancarlo.mi.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=683&team=1",
     "teamNumber": "MilanoTeam683",
-    "city": "Milano"
+    "city": "Milano",
+    "password": 51624
   },
   {
-    "team": "Team813",
+    "team": "team813",
     "persons": "Ciceri, Fabio-Peccatori, Jacopo-Marcatti, Magda-Bernardi, Massimo-Corti, Consuelo-Marktel, Sarah-Fleischhauer, Katharina-Matozzo, Vincenzo-Trinca, Stefania",
     "address": "San Raffaele Scientific Institute Haematology and BMT Via Olgettina 60 20132 Milano",
     "tel": "39-02-264-339-03",
@@ -486,10 +530,11 @@ var json = [
     "mail": "ciceri.fabio@hsr.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=813&team=1",
     "teamNumber": "MilanoTeam813",
-    "city": "Milano"
+    "city": "Milano",
+    "password": 18290
   },
   {
-    "team": "Team813",
+    "team": "team813",
     "persons": "Roncarolo, MariaGrazia-Aiuti, Alessandro-Cicalese, MariaPia-Soliman, Clara-Callegaro, Luciano",
     "address": "Paediatric Clinic Research Unit Haematologyand BMT San Raffaele Scientific Institute Via Olgettina 60 20132 Milano",
     "tel": "+39-02-264-343-87",
@@ -497,10 +542,11 @@ var json = [
     "mail": "roncarolo.mariagrazia@hsr.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=813&team=2",
     "teamNumber": "MilanoTeam813",
-    "city": "Milano"
+    "city": "Milano",
+    "password": 91750
   },
   {
-    "team": "Team813",
+    "team": "team813",
     "persons": "Coppola, Milena-Bellio, Laura",
     "address": "Donor Evaluation, Selection&amp; Management Haematologyand BMT San Raffaele Scientific Institute Via Olgettina 60 20132 Milano",
     "tel": "+39-02-264-323-49",
@@ -508,21 +554,23 @@ var json = [
     "mail": "coppola.milena@hsr.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=813&team=3",
     "teamNumber": "MilanoTeam813",
-    "city": "Milano"
+    "city": "Milano",
+    "password": 90956
   },
   {
-    "team": "Team543",
+    "team": "team543",
     "persons": "Narni, Franco-Bresciani, Paola-Mariano, Maria-Ceccherelli, Giovani-Luppi, Mario-Pierazzi, Cinzia-Cuoghi, Angela",
-    "address": "Uni. Modena, Policlinico Departmentof Oncologyand Hematology Via del Pozzo 71 41124 Modena",
+    "address": "Uni. Modena, Policlinico Dipartimento di Oncologia ed Ematologia Via del Pozzo 71 41124 Modena",
     "tel": "39-059-422-2427",
     "fax": "39-059-422-3257",
     "mail": "franco.narni@unimore.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=543&team=1",
     "teamNumber": "ModenaTeam543",
-    "city": "Modena"
+    "city": "Modena",
+    "password": 28951
   },
   {
-    "team": "Team543",
+    "team": "team543",
     "persons": "Paolucci, Paolo-Palazzi, Giovanni",
     "address": "Azienda Ospedaliera- Universitaria Scuola di Specializzazione in Pediatria U. O.di Ematologia, Oncologiae Trapianto Viadel Pozzo, 71 41100 Modena",
     "tel": "+390594222534",
@@ -530,10 +578,11 @@ var json = [
     "mail": "paolucci.paolo@unimo.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=543&team=2",
     "teamNumber": "ModenaTeam543",
-    "city": "Modena"
+    "city": "Modena",
+    "password": 71034
   },
   {
-    "team": "Team279",
+    "team": "team279",
     "persons": "Rovelli, Attilio-Balduzzi, Adriana-Biagi, Ettore-Longoni, Daniela-Bonanomi, Sonia-Perseghin, Paolo-Marrocco, Emanuela-Mandelli, Nadia",
     "address": "Centro trapianti di  Midollo Osseo Clinica Pediatrica Universitàdi Milano Bicocca A. O. San Gerardo. Via Pergolesi 33 20900 Monza",
     "tel": "39-039-233-2442/3523/3513",
@@ -541,10 +590,11 @@ var json = [
     "mail": "a.rovelli@hsgerardo.org",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=279&team=1",
     "teamNumber": "MonzaTeam279",
-    "city": "Monza"
+    "city": "Monza",
+    "password": 17963
   },
   {
-    "team": "Team544",
+    "team": "team544",
     "persons": "Pogliani, EnricoMaria-Pioltelli, Pietro-Parma, Matteo-Terruzzi, Elisabetta-Pirola, Emanuele-Brambilla, Cecilia",
     "address": "Ospedale San Gerardo Clinica Ematologicadell Università Milano- Biocca Via Pergolese 33 20900 Monza",
     "tel": "39-039-233-2392",
@@ -552,21 +602,23 @@ var json = [
     "mail": "p.pioltelli@hsgerardo.org",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=544&team=1",
     "teamNumber": "MonzaTeam544",
-    "city": "Monza"
+    "city": "Monza",
+    "password": 53656
   },
   {
-    "team": "Team766",
+    "team": "team766",
     "persons": "deRosa, Gennaro-Risitano, Antonio-Pane, Fabrizio-Gargiulo, Gianpaolo",
-    "address": "Università di Napoli Federico II Medical School Division of Hematology Via S Pansini 5 80131 Napoli",
+    "address": "Università di Napoli Federico II Divisione Ematologia Via S Pansini 5 80131 Napoli",
     "tel": "39-081-746-2037",
     "fax": "39-081-746-2165",
     "mail": "gederosa@unina.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=766&team=1",
     "teamNumber": "NapoliTeam766",
-    "city": "Napoli"
+    "city": "Napoli",
+    "password": 11204
   },
   {
-    "team": "Team839",
+    "team": "team839",
     "persons": "Pinto, Antonio-Marcacci, Gianpaolo",
     "address": "Ist Naz Tumori- Fondazione Sen G Pascale U.O.S.C Ematologia Oncologia Via Mariano Semmola 80131 Napoli",
     "tel": "39-081-590-32-04/14/18/19",
@@ -574,21 +626,23 @@ var json = [
     "mail": "apinto.int.napoli@tin.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=839&team=1",
     "teamNumber": "NapoliTeam839",
-    "city": "Napoli"
+    "city": "Napoli",
+    "password": 99550
   },
   {
-    "team": "Team793",
+    "team": "team793",
     "persons": "Gabbas, Attilio-Arru, Luigi-Latte, G.Carlo-Palmas, Angelo-Piras, Giovanna-Fais, AnnaMaria-Palmas, Angelo",
-    "address": "Ospedale San Francesco Division of Hematology 08100 Nuoro",
+    "address": "Ospedale San Francesco Divisione Ematologia 08100 Nuoro",
     "tel": "39-0784-240-206",
     "fax": "39-0784-240-463",
     "mail": "emanuor@tiscali.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=793&team=1",
     "teamNumber": "NuoroTeam793",
-    "city": "Nuoro"
+    "city": "Nuoro",
+    "password": 16760
   },
   {
-    "team": "Team285",
+    "team": "team285",
     "persons": "Messina, Chiara-Calore, Elisabetta-Varotto, Stefania-Bernardi, Matteo-Pillon, Marta",
     "address": "Clinicadi Oncoematologia Pediatrica Dipartimentodi Pediatria Via Giustiniani 3 35128 Padova",
     "tel": "39-049-821-3579",
@@ -596,32 +650,35 @@ var json = [
     "mail": "chiara.messina@unipd.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=285&team=1",
     "teamNumber": "PadovaTeam285",
-    "city": "Padova"
+    "city": "Padova",
+    "password": 73936
   },
   {
-    "team": "Team853",
+    "team": "team853",
     "persons": "Semenzato, Gianpietro-Trentin, Livio-Zambello, Renato-Pavan, Laura-Colpo, Anna-Sabbion, Carlo-DeNadai, Alessandra",
-    "address": "Padua University Hospital Departmentof Medicine- Hematology Section Via Giustiniani 2 35128 Padova",
+    "address": "Ospedale Padua Università Dipartimento di Medicina - Sezione Ematologia Via Giustiniani 2 35128 Padova",
     "tel": "+390498212298",
     "fax": "+390498211970",
     "mail": "ematologiapadova.dimed@unipd.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=853&team=1",
     "teamNumber": "PadovaTeam853",
-    "city": "Padova"
+    "city": "Padova",
+    "password": 74742
   },
   {
-    "team": "Team109",
+    "team": "team109",
     "persons": "Ziino, Ottavio-Tropia, Serena-Cannella, Sonia-Riccardi, Mariastella-Grigoli, Antonella",
-    "address": "Ospedale dei Bambini Paediatric Haematology Oncology Via Benedettini 1 90144 Palermo",
+    "address": "Ospedale dei Bambini - Pediatria Ematologia Oncologia Via Benedettini 1 90144 Palermo",
     "tel": "+39.916.666.131/036",
     "fax": "+39.916.666.001",
     "mail": "ottavioziino@yahoo.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=109&team=1",
     "teamNumber": "PalermoTeam109",
-    "city": "Palermo"
+    "city": "Palermo",
+    "password": 56816
   },
   {
-    "team": "Team157",
+    "team": "team157",
     "persons": "Pagnucco, Guido-Tomaselli, Carmen-Bondi, Francesca-Randazzo, Cristina-Anxur, Merenda",
     "address": "A.R.N.A.S. Civico-Di Cristina U.O. EMATOLOGIA Piazza Leotta 6 90100 Palermo",
     "tel": "+390916664147",
@@ -629,10 +686,11 @@ var json = [
     "mail": "gpagnucco@ospedalecivicopa.org",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=157&team=1",
     "teamNumber": "PalermoTeam157",
-    "city": "Palermo"
+    "city": "Palermo",
+    "password": 36606
   },
   {
-    "team": "Team392",
+    "team": "team392",
     "persons": "Scimè, Rosanna-Cavallaro, AnnaMaria-Tringali, Stefania-Pitrone, Rosalba-Sbriglio, Lucia",
     "address": "Ospedale V. Cervello Div.di Ematologiae Unità Trapian ti Via Trabucco 180 90146 Palermo",
     "tel": "00-39-091-6802641",
@@ -640,10 +698,11 @@ var json = [
     "mail": "rscime@tiscali.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=392&team=1",
     "teamNumber": "PalermoTeam392",
-    "city": "Palermo"
+    "city": "Palermo",
+    "password": 84705
   },
   {
-    "team": "Team692",
+    "team": "team692",
     "persons": "Musso, Maurizio-Porretto, Ferdinando-Crescimanno, Alessandra-Giambrone, Antonio",
     "address": "Ospedale La Maddalena- Dpt. Oncologico Unità Operativa di Oncoematologia e Trapianto di Midollo Via S. Lorenzo Colli, 312 90146 Palermo",
     "tel": "39-091-680-6523",
@@ -651,21 +710,23 @@ var json = [
     "mail": "mamusso@libero.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=692&team=1",
     "teamNumber": "PalermoTeam692",
-    "city": "Palermo"
+    "city": "Palermo",
+    "password": 35206
   },
   {
-    "team": "Team814",
+    "team": "team814",
     "persons": "Abbadessa, Vincenzo-Quintini, Gerlando-Chiaramonte, Rosalba-Minardi, Viviana",
-    "address": "Univ.di Palermo Div.di Ematologia con Trapiantodi Midollo Via del Vespron 129 90127 Palermo",
+    "address": "Univ.di Palermo Div.di Ematologia con trapianto di Midollo Via del Vespron 129 90127 Palermo",
     "tel": "39-091-655-4401",
     "fax": "39-091-655-4402/4423",
     "mail": "aidsabba@unipa.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=814&team=1",
     "teamNumber": "PalermoTeam814",
-    "city": "Palermo"
+    "city": "Palermo",
+    "password": 73129
   },
   {
-    "team": "Team245",
+    "team": "team245",
     "persons": "Rizzoli, Vittorio-Giuliani, Nicola-Mangoni, Lina-Caramatti, Cecilia",
     "address": "Università di Parma Cattedra di Ematologia Centro Trapianti Midollo Osseo Via Gramsci 14 43100 Parma",
     "tel": "39-05-21-033265",
@@ -673,10 +734,11 @@ var json = [
     "mail": "ematopr@unipr.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=245&team=1",
     "teamNumber": "ParmaTeam245",
-    "city": "Parma"
+    "city": "Parma",
+    "password": 16161
   },
   {
-    "team": "Team286",
+    "team": "team286",
     "persons": "Alessandrino, E.Paolo-Bernasconi, Paolo-Colombo, AnnaAmelia-Caldera, Daniela-Pascutto, Cristiana-Deiana, Cinzia-Ripamonti, Francesco",
     "address": "BM Tunit Clinica Ematologica Fondazione IRCCS Policlinico San Matteo Viale Golgi N19, 27100 Pavia",
     "tel": "39-0382-503098",
@@ -684,21 +746,23 @@ var json = [
     "mail": "alessandrino@smatteo.pv.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=286&team=1",
     "teamNumber": "PaviaTeam286",
-    "city": "Pavia"
+    "city": "Pavia",
+    "password": 66972
   },
   {
-    "team": "Team557",
+    "team": "team557",
     "persons": "Zecca, Marco-Decembrino, Nini-Maccario, Rita-Giorgiani, Giovanna-Comoli, Patrizia-Moretta, Antonia-Montagna, Daniela-DeCecco, Valentina",
-    "address": "Fondazione IRCCS Policlinico San Matteo Pediatric Hematology- Oncology Viale Golgi 19 27100 Pavia",
+    "address": "Fondazione IRCCS Policlinico San Matteo - Ematologie e Oncologia Pediatrica Viale Golgi 19 27100 Pavia",
     "tel": "390382502607",
     "fax": "390382501251",
     "mail": "m.zecca@smatteo.pv.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=557&team=1",
     "teamNumber": "PaviaTeam557",
-    "city": "Pavia"
+    "city": "Pavia",
+    "password": 42691
   },
   {
-    "team": "Team771",
+    "team": "team771",
     "persons": "Zambelli, Alberto-DaPrada, G.A.-Lanza, Annalisa-Fregoni, Vittorio-Piccinini, Claudia",
     "address": "Fondazione S. Maugeri Div. Oncologia Medicavia Ferrata 8 27100 Pavia",
     "tel": "39-0382-592-657",
@@ -706,21 +770,23 @@ var json = [
     "mail": "azambelli@fsm.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=771&team=1",
     "teamNumber": "PaviaTeam771",
-    "city": "Pavia"
+    "city": "Pavia",
+    "password": 17342
   },
   {
-    "team": "Team573",
+    "team": "team573",
     "persons": "Liberati, Marina-Capparella, Vincenzo-Schippa, Monica-Ferrara, Pasqualinda",
-    "address": "University of Perugia Sez. Medicina Internae Scienze Oncol. Policlinico Monteluce I 06122 Perugia",
+    "address": "Università di Perugia Sez. Medicina Interna e Scienze Oncol. Policlinico Monteluce I 06122 Perugia",
     "tel": "39-075-578-3436",
     "fax": "39-075-578-3444",
     "mail": "marinal@unipg.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=573&team=1",
     "teamNumber": "PerugiaTeam573",
-    "city": "Perugia"
+    "city": "Perugia",
+    "password": 67329
   },
   {
-    "team": "Team794",
+    "team": "team794",
     "persons": "Velardi, Andrea-Carotti, Alessandra-Caniglia, Maurizio-Falzetti, Franca-Monaldi, Antonella-Santucci, Antonella",
     "address": "Sezione di Ematologia Dipartimento di Medicina Clinicae Sperimentale Università di Perugia Ospedale Santa Maria della Misericordia 06132 Perugia",
     "tel": "39-075-578-4124",
@@ -728,10 +794,11 @@ var json = [
     "mail": "velardi@unipg.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=794&team=1",
     "teamNumber": "PerugiaTeam794",
-    "city": "Perugia"
+    "city": "Perugia",
+    "password": 44177
   },
   {
-    "team": "Team8420",
+    "team": "team8420",
     "persons": "Velardi, Andrea-Toubert, Antoine",
     "address": "Dipartimentodi Medicina Clinica e Sperimentale Università di Perugia Ospedale Santa Mariadella Misericordia 06132 Perugia",
     "tel": "+39.075.578.4124",
@@ -739,43 +806,47 @@ var json = [
     "mail": "velardi@unipg.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=8420&team=1",
     "teamNumber": "PerugiaTeam8420",
-    "city": "Perugia"
+    "city": "Perugia",
+    "password": 40036
   },
   {
-    "team": "Team529",
+    "team": "team529",
     "persons": "Visani, Guiseppe-Barulli, Sara-Guiducci, Barbara-Giardini, Claudio-Lucesole, Moira-Malerba, Lara-Leopardi, Giuliana-Bonopera, Aldina",
-    "address": "Pesaro Hospital Hematology Transplant Centre Muraglia-via Lombroso 61100 Pesaro",
+    "address": "Ospedale Pesaro Centro Ematologico Muraglia-via Lombroso 61100 Pesaro",
     "tel": "39-(0)7-21-364-039",
     "fax": "39-(0)7-21-364-036",
     "mail": "g.visani@ospedalesansalvatore.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=529&team=1",
     "teamNumber": "PesaroTeam529",
-    "city": "Pesaro"
+    "city": "Pesaro",
+    "password": 74723
   },
   {
-    "team": "Team248",
+    "team": "team248",
     "persons": "DiBartolomeo, Paolo-Bavaro, Pasqua-Olioso, Paola-DiCarlo, Paolo-Papalinetti, Gabriele-Santarone, Stella-DiNicola, Daniela-Pennese, Elsa",
-    "address": "Ospedale Civile Department of Hematology Fonte Romana 8 65125 Pescara",
+    "address": "Ospedale Civile Dipartimento di Ematologia Fonte Romana 8 65125 Pescara",
     "tel": "39-085-425-2581",
     "fax": "39-085-425-2583",
     "mail": "pescaratmo@virgilio.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=248&team=1",
     "teamNumber": "PescaraTeam248",
-    "city": "Pescara"
+    "city": "Pescara",
+    "password": 61569
   },
   {
-    "team": "Team163",
+    "team": "team163",
     "persons": "Cavanna, Luigi-Vallisa, Daniele-Lazzaro, Antonio-Muroni, Monica-Pagani, Raffaella",
-    "address": "Hospital Guglielmo da Saliceto Oncology and Hematology Department Via Taverna 49 29100 Piacenza",
+    "address": "Ospedale Guglielmo da Saliceto Dipartimento di Ematologia ed Oncologia Via Taverna 49 29100 Piacenza",
     "tel": "+390523302697",
     "fax": "+390523302141",
     "mail": "l.cavanna@ausl.pc.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=163&team=1",
     "teamNumber": "PiacenzaTeam163",
-    "city": "Piacenza"
+    "city": "Piacenza",
+    "password": 76289
   },
   {
-    "team": "Team795",
+    "team": "team795",
     "persons": "Favre, Claudio-Casazza, Gabriella-Menconi, Mariacristina-DelCarlo, Tiziana-Bernasconi, Sayla",
     "address": "Unità Operativa Oncoematologia Pediatrica Azienda Ospedaliera Universitaria Pisa via Rome, 67 56100 Pisa",
     "tel": "39-050-992-840",
@@ -783,19 +854,21 @@ var json = [
     "mail": "c.favre@med.unipi.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=795&team=1",
     "teamNumber": "PisaTeam795",
-    "city": "Pisa"
+    "city": "Pisa",
+    "password": 87167
   },
   {
-    "team": "Team795",
+    "team": "team795",
     "persons": "Petrini, Mario-Benedetti, Edoardo-Caracciolo, Francesco-Orciuolo, Enrico-Albiani, Anna-Martinelli, Leo-Buda, Gabriele",
     "address": "Unità Operativa Ematologia Azienda Ospedaliero Universitaria Pisana Via Roma 67 56126 Pisa",
     "mail": "mario.petrini@med.unipi.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=795&team=2",
     "teamNumber": "PisaTeam795",
-    "city": "Pisa"
+    "city": "Pisa",
+    "password": 78737
   },
   {
-    "team": "Team861",
+    "team": "team861",
     "persons": "Pizzuti, Michele-Santagostino, Alberto-Cimminiello, Michele-Amendola, Angela-Lucia, Carmela-Attolico, Imma",
     "address": "Ospedale San Carlo Dip. Ematologia via Potito Petrone 85100 Potenza",
     "tel": "+390971613660",
@@ -803,21 +876,23 @@ var json = [
     "mail": "ematologia.trapianto@ospedalesancarlo.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=861&team=1",
     "teamNumber": "PotenzaTeam861",
-    "city": "Potenza"
+    "city": "Potenza",
+    "password": 24621
   },
   {
-    "team": "Team306",
+    "team": "team306",
     "persons": "Zuffa, Eliana-Zaccaria, Alfonso-Chirico, Gianluca-Zumaglini, Federica",
-    "address": "Ospedale Civile Oncology- Hematology Department Viale Randi 5 48100 Ravenna",
+    "address": "Ospedale Civile Dipartimento di Ematologia ed Oncologia Viale Randi 5 48100 Ravenna",
     "tel": "+390544286213",
     "fax": "+390544285827",
     "mail": "e.zuffa@ausl.ra.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=306&team=1",
     "teamNumber": "RavennaTeam306",
-    "city": "Ravenna"
+    "city": "Ravenna",
+    "password": 41504
   },
   {
-    "team": "Team587",
+    "team": "team587",
     "persons": "Irrera, Giuseppe-Massara, Elisabetta-Martino, Massimo-Messina, Giuseppe-Pucci, Giulia-Console, Giuseppe-Russo, Letteria-Gallo, Giuseppe-Cusumano, Giusy-Fedele, Roberta-Monteleone, Renza-Moscato, Tiziana",
     "address": "Azienda Ospedaliera Centro Unico Regionale Trapianti Alberto Neri Bianchi- Melacrino- Morelli 89100 Reggio Calabria",
     "tel": "39-09-65-39-76-80",
@@ -825,10 +900,11 @@ var json = [
     "mail": "irrera1959@libero.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=587&team=1",
     "teamNumber": "ReggioCalabriaTeam587",
-    "city": "ReggioCalabria"
+    "city": "ReggioCalabria",
+    "password": 68801
   },
   {
-    "team": "Team660",
+    "team": "team660",
     "persons": "Merli, Francesco-Facchini, Luca-Imovilli, Annalisa-Botti, Stefano",
     "address": "Arcispedale S. Maria Nuova Unita Operativa Ematologia Viale Risorgimento Reggio Emilia",
     "tel": "39-0522-296618",
@@ -836,21 +912,23 @@ var json = [
     "mail": "merli.francesco@asmn.re.it)",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=660&team=1",
     "teamNumber": "ReggioEmiliaTeam660",
-    "city": "ReggioEmilia"
+    "city": "ReggioEmilia",
+    "password": 64385
   },
   {
-    "team": "Team185",
+    "team": "team185",
     "persons": "Musto, Pellegrino-Guariglia, Roberto-Pietrantuono, Giuseppe-Zonno, Antonia-DAuria, Fiorella-Traficante, Anna",
-    "address": "Hematology&amp; SCT Unit Instituto Ricoveroe Curaa Carattere Scientifico Centro Riferimento Oncologicodella Basilicata Via Padre Pio, 1 PZ-85028 Rionero In Vulture",
+    "address": " Instituto Ricovero e Cura a Carattere Scientifico Centro Riferimento Oncologicodella Basilicata Via Padre Pio, 1 PZ-85028 Rionero In Vulture",
     "tel": "+390972726729",
     "fax": "39-0972-726217",
     "mail": "p.musto@crob.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=185&team=1",
     "teamNumber": "RioneroInVultureTeam185",
-    "city": "RioneroInVulture"
+    "city": "RioneroInVulture",
+    "password": 3697
   },
   {
-    "team": "Team232",
+    "team": "team232",
     "persons": "Foa, Roberto-Meloni, Giovanna-Vignetti, Marco-Iori, AnnaPaola-Ricci, Roberto-Iori, AnnaPaola-Meloni, Giovanna",
     "address": "Univ. La Sapienza Dip. Biotecnologie Cellulari ed Ematologia via Benevento 600161 Rome",
     "tel": "39-06-85-7951",
@@ -858,21 +936,23 @@ var json = [
     "mail": "232@bce.uniroma1.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=232&team=1",
     "teamNumber": "RomeTeam232",
-    "city": "Rome"
+    "city": "Rome",
+    "password": 295
   },
   {
-    "team": "Team287",
+    "team": "team287",
     "persons": "Majolino, Ignazio-Locasciulli, Anna-Severino, Alessandro-Pinazzi, M.Beatrice-Proia, Anna-DelGiudice, Elisabetta-Natale, Novella-Spirito, Francesca",
-    "address": "Ospedale S. Camillo Haematology SCT Unit Padiglione Cesalpino Circonvallazione Gianicolense 87 00152 Roma",
+    "address": "Ospedale S. Camillo Unità Ematologia Padiglione Cesalpino Circonvallazione Gianicolense 87 00152 Roma",
     "tel": "39-06-5870-3495",
     "fax": "39-06-5870-4357",
     "mail": "imajolino@scamilloforlanini.rm.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=287&team=1",
     "teamNumber": "RomeTeam287",
-    "city": "Rome"
+    "city": "Rome",
+    "password": 75363
   },
   {
-    "team": "Team307",
+    "team": "team307",
     "persons": "Leone, Giuseppe-Sica, Simona-Chiusolo, Patrizia-Cioce, Marco",
     "address": "Università Cattolica S. Cuore Istitutodi Ematologia Ematologia Largo Gemelli 8 00168 Roma",
     "tel": "39-063-550-3953",
@@ -880,10 +960,11 @@ var json = [
     "mail": "emacat@rm.unicatt.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=307&team=1",
     "teamNumber": "RomeTeam307",
-    "city": "Rome"
+    "city": "Rome",
+    "password": 73359
   },
   {
-    "team": "Team383",
+    "team": "team383",
     "persons": "Lucarelli, Guido-Gaziev, Javid-Sodani, Pietro",
     "address": "International Center for Transplantationin Thalassemiaand Sickle Cell Anemia Fondazione IME- Policlinico Tor Vergata Viale Oxford, 81 00133 Roma",
     "tel": "+390620661300",
@@ -891,54 +972,59 @@ var json = [
     "mail": "j.gaziev@fondazioneime.org",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=383&team=1",
     "teamNumber": "RomeTeam383",
-    "city": "Rome"
+    "city": "Rome",
+    "password": 53948
   },
   {
-    "team": "Team756",
+    "team": "team756",
     "persons": "Arcese,William-Cudillo, Laura-Cerretti, Raffaelle-Picardi, Alessandra-DeAngelis, Gottardo-Micciché, Silvia-Trenta, Francesco-Mauroni, MariaRita-DiPiazza, Fabio",
-    "address": "Transplant Network ¨Tor Vergata¨ University of Rome Stem Cell Transplant Unit Policlinico Universitàrio Tor Vergata Viale Oxford 81 00133 Roma",
+    "address": "Università Torvergata - rete trapianti ¨Tor Vergata¨ Unità Policlinico Universitàrio trapianto cellule staminali Tor Vergata Viale Oxford 81 00133 Roma",
     "tel": "+39-06-2090-3227/3220/3213",
     "fax": "+39-06-20903221",
     "mail": "william.arcese@ptvonline.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=756&team=1",
     "teamNumber": "RomeTeam756",
-    "city": "Rome"
+    "city": "Rome",
+    "password": 38247
   },
   {
-    "team": "Team756",
+    "team": "team756",
     "persons": "DeFabritiis, Paolo-Cupelli, Luca-Dentamaro, Teresa-Piccioni, Daniela-Tendas, Andrea",
-    "address": "Sant Eugenio Hospital Divisionof Hematology P.ledell Umanesimo, 10 00144 Roma",
+    "address": "Ospedale Sant Eugenio Dipartimento di Ematologia P.le dell Umanesimo, 10 00144 Roma",
     "tel": "+39-06-591-4745",
     "fax": ": +39-06-591-5965",
     "mail": "paolo.de.fabritiis@uniroma2.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=756&team=2",
     "teamNumber": "RomeTeam756",
-    "city": "Rome"
+    "city": "Rome",
+    "password": 78385
   },
   {
-    "team": "Team756",
+    "team": "team756",
     "persons": "Avvisati, Giuseppe-Annibali, Ombretta-Tirindelli, MariaCristina",
-    "address": "Rome Transplant Network Campus Biomedico University Division of Hematology Via Alvarodel Portillo, 200 Roma",
+    "address": "Campus Biomedico di Rome - Trapianto Divisione di Ematologia Via Alvarodel Portillo, 200 Roma",
     "tel": "+39-06-22541-1075",
     "fax": "+39-06-22541-1029",
     "mail": "g.avvisati@unicampus.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=756&team=4",
     "teamNumber": "RomeTeam756",
-    "city": "Rome"
+    "city": "Rome",
+    "password": 84090
   },
   {
-    "team": "Team756",
+    "team": "team756",
     "persons": "Petti, ConcettiMaria-Mengarelli, Andrea-Romano, Atelda",
-    "address": "Regina Elena Cancer Institute Hematology- Clinical Oncology Via Elio Chianesi, 53 00128 Roma",
+    "address": "Clinica Regina Elena Istituto Ematologie ed Oncologia - Via Elio Chianesi, 53 00128 Roma",
     "tel": "+390652665685",
     "fax": "+390652666949",
     "mail": "mcpetti@ifo.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=756&team=5",
     "teamNumber": "RomeTeam756",
-    "city": "Rome"
+    "city": "Rome",
+    "password": 54493
   },
   {
-    "team": "Team756",
+    "team": "team756",
     "persons": "Monarca, Bruno-Montefusco, Enrico-Ferrari, Antonella-Grigore, Doinita-Sollazzo, Fabio-Conte, Esmeralda-Bianchi, MariaPaola-Piedimonte, Monica",
     "address": "Università ¨La Sapienza¨ Il Facoltà di Medicina U. O. C Ematologia A. O. S. Andrea Via di Grottarossa 1035 00185 Roma",
     "tel": "+390680345939",
@@ -946,21 +1032,23 @@ var json = [
     "mail": "enri954@libero.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=756&team=6",
     "teamNumber": "RomeTeam756",
-    "city": "Rome"
+    "city": "Rome",
+    "password": 11601
   },
   {
-    "team": "Team756",
+    "team": "team756",
     "persons": "Annino, Luciana-Chierichini, Anna-AnticoliBorsa, Paola-Anaclerico, Barbara-Pilozzi, Vittoria-Magnetta, Lucio",
-    "address": "Haematology Unit San Giovanni- Addolorata Hospital Via Amba Aradam, 80 00184 Rome",
+    "address": "Ospedalle Addolorata - Unità Ematologia San Giovanni - Via Amba Aradam, 80 00184 Rome",
     "tel": "+390677055482",
     "fax": "+390677055326",
     "mail": "lannino@hsangiovanni.roma.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=756&team=7",
     "teamNumber": "RomeTeam756",
-    "city": "Rome"
+    "city": "Rome",
+    "password": 56176
   },
   {
-    "team": "Team796",
+    "team": "team796",
     "persons": "Locatelli, Franco-Bertaina, Alice-Bernardo, MariaEster-Milano, Giuseppe-Rutella, Sergio-Ciscato, Carlo-Pinto, RitaMaria",
     "address": "IRRCS Ospedale Pediatrico Bambino Gesù Piazza S. Onofrio, 4 00165 Rome",
     "tel": "+390668592129",
@@ -968,32 +1056,35 @@ var json = [
     "mail": "franco.locatelli@opbg.net",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=796&team=1",
     "teamNumber": "RomeTeam796",
-    "city": "Rome"
+    "city": "Rome",
+    "password": 8397
   },
   {
-    "team": "Team928",
+    "team": "team928",
     "persons": "Selleri, Carmine-Serio, Bianca-Pezzullo, Luca-Cuffa, Bianca-Tortora, Luana",
-    "address": "Medical School University of Salerno AOU San Giovannidi Dio e Ruggi D´ Aragona Hospital Hematologyand Hematopoietic SCT Center Largo Cittàd´ Ippocrate 84131 Salerno",
+    "address": "Scuola Medica Salernitana San Giovannidi Dio e Ruggi D´ Aragona Ospedale Centro Ematologico - Largo Città d´ Ippocrate 84131 Salerno",
     "tel": "+39089673150",
     "fax": "+39089673157",
     "mail": "cselleri@unisa.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=928&team=1",
     "teamNumber": "SalernoTeam928",
-    "city": "Salerno"
+    "city": "Salerno",
+    "password": 89697
   },
   {
-    "team": "Team526",
+    "team": "team526",
     "persons": "Cascavilla, Nicola-Carella, AngeloMichele-Greco, MicheleMario-Savino, Lucia",
-    "address": "IRCCS, Casa Sollievo della Sofferenza Unit of Hematologyand Bone Marrow Transplantation Viale Capuccini 86 71013 (FG) San Giovanni Rotondo",
+    "address": "IRCCS, Casa Sollievo della Sofferenza Unità di Ematologia Trapianto midollo osseo Viale Capuccini 86 71013 (FG) San Giovanni Rotondo",
     "tel": "39-0882-410-539/525",
     "fax": "39-0882-410-258",
     "mail": "ematologia@operapadrepio.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=526&team=1",
     "teamNumber": "SanGiovanniRotondoTeam526",
-    "city": "SanGiovanniRotondo"
+    "city": "SanGiovanniRotondo",
+    "password": 88800
   },
   {
-    "team": "Team870",
+    "team": "team870",
     "persons": "Longinotti, Maurizio-Podda, Luidi-Nieddu, RosaMaria-Fozza, Claudio",
     "address": "Istituto Di Ematologia Università Di Sassari Viale San Pietro 12 07100 Sassari",
     "tel": "+39-079-228282",
@@ -1001,10 +1092,11 @@ var json = [
     "mail": "podda@uniss.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=870&team=1",
     "teamNumber": "SassariTeam870",
-    "city": "Sassari"
+    "city": "Sassari",
+    "password": 44511
   },
   {
-    "team": "Team321",
+    "team": "team321",
     "persons": "Marotta, Giuseppe-Bucalossi, Alessandro-Lenoci, Mariapia-Tozzi, Monica-Borelli, Ciro",
     "address": "U.O.S.A Centro Trapianti e Terapia Cellulare Azienda Ospedaliera Universitaria Senese Policlinico S. Mariaalle Scotte Viale Bracci, 16 53100 Siena",
     "tel": "39-0577-586743",
@@ -1012,10 +1104,11 @@ var json = [
     "mail": "g.marotta@ao-siena.toscana.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=321&team=1",
     "teamNumber": "SienaTeam321",
-    "city": "Siena"
+    "city": "Siena",
+    "password": 45289
   },
   {
-    "team": "Team332",
+    "team": "team332",
     "persons": "Mazza, Patrizio-Giovanni, Pisapia-Palazzo, Giulia",
     "address": "Ospedale Nord Institute of Haematology Strada Martinafranca 74100 Taranto",
     "tel": "39-099-478-6765",
@@ -1023,21 +1116,23 @@ var json = [
     "mail": "ematologia.taranto@tin.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=332&team=1",
     "teamNumber": "TarantoTeam332",
-    "city": "Taranto"
+    "city": "Taranto",
+    "password": 57515
   },
   {
-    "team": "Team231",
+    "team": "team231",
     "persons": "Falda, Michele-Benedetto, Bruno-Busca, Alessandro-Giaccone, Luisa-Allione, Bernardino-DArdia, Stefano-Fiorillo, Lena-Manetta, Sara",
-    "address": "S.S.C.V.D Trapiantodi Cellule Staminali Ospedale Universitaria San Giovanni Battista Corso Bramante 88 10126 Torino",
+    "address": "S.S.C.V.D trapianto di Cellule Staminali Ospedale Universitaria San Giovanni Battista Corso Bramante 88 10126 Torino",
     "tel": "39-011-633-5359",
     "fax": "39-011-633-5759",
     "mail": "faldam@yahoo.com",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=231&team=1",
     "teamNumber": "TorinoTeam231",
-    "city": "Torino"
+    "city": "Torino",
+    "password": 33380
   },
   {
-    "team": "Team305",
+    "team": "team305",
     "persons": "Fagioli, Franca-Vassallo, Elena-Berger, Massimo-Nesi, Francesca-Biasin, Eleonora-Quarello, Paola-Calcagnile, Ferdinando-Mammola, Serena",
     "address": "Onco-Ematologia Pediatrica Centro Trapianti Cellule Staminali Ospedale Infantile Regina Margherita Piazza Polonia 94 10126 Torino",
     "tel": "+39-011-313-5360",
@@ -1045,21 +1140,23 @@ var json = [
     "mail": "franca.fagioli@unito.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=305&team=1",
     "teamNumber": "TorinoTeam305",
-    "city": "Torino"
+    "city": "Torino",
+    "password": 41538
   },
   {
-    "team": "Team305",
+    "team": "team305",
     "persons": "Aglietta, Massimo-Sangiolo, Dario-Carnevale-Schianca, Fabrizio-Caravelli, Daniela-Gioeni, Luisa-Albanese, Angela",
-    "address": "Cattedra di Oncologia Medica Istituto per la Ricercaela Cura del Cancro Strada Provinciale 142 10060 Candiolo Torino",
+    "address": "Cattedra di Oncologia Medica Istituto per la Ricerca e la Cura del Cancro Strada Provinciale 142 10060 Candiolo Torino",
     "tel": "+390119933628",
     "fax": "+390119933299",
     "mail": "massimo.aglietta@ircc.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=305&team=2",
     "teamNumber": "TorinoTeam305",
-    "city": "Torino"
+    "city": "Torino",
+    "password": 91627
   },
   {
-    "team": "Team305",
+    "team": "team305",
     "persons": "Saglio, Giuseppe-Nicoli, Paolo-Caspanello, Salvatore-Cilloni, Daniela-DeGobbi, Marco-RegeCambrin, Giovanna-Zecchina, Gabriella",
     "address": "Università di Torino Ospedale San Luigi Orbassano Medicina Interna IISEZ5 A 10043 Orbassano Torino",
     "tel": "+390119026545",
@@ -1067,21 +1164,23 @@ var json = [
     "mail": "saglio@csi.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=305&team=3",
     "teamNumber": "TorinoTeam305",
-    "city": "Torino"
+    "city": "Torino",
+    "password": 18056
   },
   {
-    "team": "Team455",
+    "team": "team455",
     "persons": "Tarella, Corrado-DeCrescenzo, Alberto-Ruella, Marco-Rovera, Laura-Wade, Muhamed",
-    "address": "Azienda Ospedaliera Ordine Mauriziano- Umberto Iand Università di Torino S. C. D. U Ematologia e Terapie Cellulari L.go Turati 62 10128 Torino",
+    "address": "Università di Torino S. C. D. U Ematologia e Terapie Cellulari L.go Turati 62 10128 Torino",
     "tel": "+39-011-508-2949",
     "fax": "+39-508-2446",
     "mail": "corrado.tarella@unito.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=455&team=1",
     "teamNumber": "TorinoTeam455",
-    "city": "Torino"
+    "city": "Torino",
+    "password": 53257
   },
   {
-    "team": "Team415",
+    "team": "team415",
     "persons": "Ghelinzoni, Filippo-MariaStefani, Piero-Gottardi, Michele-Vincenzi, Susanna-DeGrandi, Eliana",
     "address": "Presidio Ospedaliero Treviso Unità Operativa di Ematologia Dipartimento di Medicina Piazza Ospedale, 1 31100 Treviso",
     "tel": "+390422322221",
@@ -1089,10 +1188,11 @@ var json = [
     "mail": "segematologiatv@ulss.tv.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=415&team=1",
     "teamNumber": "TrevisoTeam415",
-    "city": "Treviso"
+    "city": "Treviso",
+    "password": 50282
   },
   {
-    "team": "Team652",
+    "team": "team652",
     "persons": "Pavone, Vincenzo-Rana, Antonio-Greco, Giuseppina",
     "address": "Ospedale C. Panico Ematologia Via S. Pio X, 4 73039 Tricase (Lecce)",
     "tel": "39-083-354-772113",
@@ -1100,10 +1200,11 @@ var json = [
     "mail": "salentoematolgia@piafondazionepanico.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=652&team=1",
     "teamNumber": "Tricase(Lecce)Team652",
-    "city": "Tricase(Lecce)"
+    "city": "Tricase(Lecce)",
+    "password": 89442
   },
   {
-    "team": "Team525",
+    "team": "team525",
     "persons": "Maximova,Natalia-Rabusin, Marco-Kiren, Valentina-Guerrato, Rosa",
     "address": "Istituto perl'infanzia IRCCS Burlo Garofolo Centro Trapianti Clinica Pediatrica Via Dell Istria 65/134137 Trieste",
     "tel": "39-040-3785-276",
@@ -1111,21 +1212,23 @@ var json = [
     "mail": "maximova@burlo.trieste.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=525&team=1",
     "teamNumber": "TriesteTeam525",
-    "city": "Trieste"
+    "city": "Trieste",
+    "password": 6858
   },
   {
-    "team": "Team705",
+    "team": "team705",
     "persons": "Fanin, Renato-Cerno, Michela-Patriarca, Francesca-Sperotto, Alessandra-Nin, Cristina",
-    "address": "Azienda Ospedaliera Università di Udine Division of Hematology P.le S. Mariadella Misericordia 33100 Udine",
+    "address": "Azienda Ospedaliera Università di Udine Divisione Ematologia P.le S. Mariadella Misericordia 33100 Udine",
     "tel": "39-0432-559-662/3/4",
     "fax": "39-0432-559-661",
     "mail": "ematologia@uniud.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=705&team=1",
     "teamNumber": "UdineTeam705",
-    "city": "Udine"
+    "city": "Udine",
+    "password": 44735
   },
   {
-    "team": "Team502",
+    "team": "team502",
     "persons": "Bassan, Renato-Vespignani, Michele-DeRossi, Rino-Sannicolò, Simona-Degrandi, Eliana-Maino, Elena",
     "address": "Ospedale Civile SS. Giovannie Paolo - Dipartimento di Ematologia e Oncologia - Castello 6698/b30123 Venezia",
     "tel": "39-041-52-94-218",
@@ -1133,21 +1236,23 @@ var json = [
     "mail": "ocve.ematologia@ulss12.ve.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=502&team=1",
     "teamNumber": "VeneziaTeam502",
-    "city": "Venezia"
+    "city": "Venezia",
+    "password": 42067
   },
   {
-    "team": "Team385",
+    "team": "team385",
     "persons": "Luraschi, Annalisa-Fedeli, Paola-Cozzi, Sergio-Buscaglia, Paola-Montanara, Sergio-Savia, Franca-Piana, Carlo",
-    "address": "Verbania Hospital Oncologia Via Crocetta 28925 Verbania",
+    "address": "Ospedale di Verbania Oncologia Via Crocetta 28925 Verbania",
     "tel": "39-0323-541226",
     "fax": "39-0323-541484",
     "mail": "oncovco@hotmail.com",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=385&team=1",
     "teamNumber": "VerbaniaTeam385",
-    "city": "Verbania"
+    "city": "Verbania",
+    "password": 14220
   },
   {
-    "team": "Team863",
+    "team": "team863",
     "persons": "Santagostino, Alberto-Ardizzone, Fabio-Patriarca, Andrea-Ferrari, Paola-Sciacca, Mariella",
     "address": "S. Andrea - Dipartimento di Ematologia e Oncologia - C.so Abbiate 21 13100 Vercelli",
     "tel": "+390161593491",
@@ -1155,10 +1260,11 @@ var json = [
     "mail": "albemail@libero.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=863&team=1",
     "teamNumber": "VercelliTeam863",
-    "city": "Vercelli"
+    "city": "Vercelli",
+    "password": 64030
   },
   {
-    "team": "Team623",
+    "team": "team623",
     "persons": "Benedetti, Fabio-Sorio, Marco-Pizzolo, Giovanni-Tecchio, Cristina-Andreini, Angelo-Vecchini, Maria-Mazzo, Francesca",
     "address": "Policlinico G. B. Rossi Divisione di Ematologia, Unità di TMO Piazzale L. A. Scuro, 10 37134 Verona",
     "tel": "+390458124647",
@@ -1166,10 +1272,11 @@ var json = [
     "mail": "fabio.benedetti@univr.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=623&team=1",
     "teamNumber": "VeronaTeam623",
-    "city": "Verona"
+    "city": "Verona",
+    "password": 61587
   },
   {
-    "team": "Team623",
+    "team": "team623",
     "persons": "Cesaro, Simone-Bonetti, Elisa-Balter, Rita-Comerlati, Adriana-DeBortoli, Massimiliano",
     "address": "Dipartimento di Ematologia e Oncologia pediatrica Policlinico G. B. Rossi Piazzale L. A. Scuro, 10 37134 Verona",
     "tel": "+390458124668",
@@ -1177,10 +1284,11 @@ var json = [
     "mail": "simone.cesaro@ospedaleuniverona.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=623&team=2",
     "teamNumber": "VeronaTeam623",
-    "city": "Verona"
+    "city": "Verona",
+    "password": 80015
   },
   {
-    "team": "Team8414",
+    "team": "team8414",
     "persons": "Cesaro, Simone-Martino, Rodrigo-Hoek, Jennifer",
     "address": "Dipertimento di Ematologia e Oncologia Policlinico G. B. Rossi Piazzale L. A. Scuro, 10 37134 Verona",
     "tel": "+390458124668",
@@ -1188,39 +1296,43 @@ var json = [
     "mail": "simone.cesaro@ospedaleuniverona.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=8414&team=1",
     "teamNumber": "VeronaTeam8414",
-    "city": "Verona"
+    "city": "Verona",
+    "password": 48073
   },
   {
-    "team": "Team880",
+    "team": "team880",
     "persons": "Moschetti, Gaetano-Schinocca, LucianaRita-Gorgone, AusiliaGiuseppa-Guliti, Giuseppa-Vitale, MariaPaola",
     "address": "Istituto Oncologico Del Mediterraneo Auto BMT Unit Via Penninazzo 7 95028 Viagrande",
     "tel": "+390957895000",
     "fax": "+390957901400",
     "mail": "iom.ebmt@virgilio.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=880&team=1",
-    "teamNumber": "ViagrandeTeam880",
-    "city": "Viagrande"
+    "teamNumber": "ViagrDipartimento di EmatologieTeam880",
+    "city": "Viagrande",
+    "password": 83063
   },
   {
-    "team": "Team797",
+    "team": "team797",
     "persons": "Rodeghiero, Francesco-Raimondi, Roberto-Miggiano, MariaCristina-Borghero, Carlo-Elice, Francesca-Dall´Olmo, Christian-Trentin, Michela",
-    "address": "S. Bortolo Hospital Dipartimento di Ematologia Via Rodolfi 37 36100 Vicenza",
+    "address": "Ospedale S. Bortolo  Dipartimento di Ematologia Via Rodolfi 37 36100 Vicenza",
     "tel": "+39-0444-75-3607or3518",
     "fax": "+39-0444-75-3365",
     "mail": "raimondi@hemato.ven.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=797&team=1",
     "teamNumber": "VicenzaTeam797",
-    "city": "Vicenza"
+    "city": "Vicenza",
+    "password": 16048
   },
   {
-    "team": "Team210",
+    "team": "team210",
     "persons": "Montanaro, Marco-Tini, Vincenzo-DeGregoris, Cinzia-Paoletti, Simonetta-Mastini, Cristina",
-    "address": "ASL Viterbo Polo Ospedaliero Centrale Haematology Department Viadell Ospedale, 17 Ronciglione 01037 Viterbo",
+    "address": "ASL Viterbo Polo Ospedaliero Centrale Dipartimento di Ematologia Via dell'Ospedale, 17 Ronciglione 01037 Viterbo",
     "tel": "+390761651240",
     "fax": "+390761651236",
     "mail": "emat.mon@asl.vt.it",
     "url": "http://www2.clinicalresearch.nl/members/cic.asp?cic=210&team=1",
     "teamNumber": "ViterboTeam210",
-    "city": "Viterbo"
+    "city": "Viterbo",
+    "password": 85529
   }
 ] 

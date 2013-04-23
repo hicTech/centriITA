@@ -19,12 +19,15 @@
 <script type="text/javascript" src="spinner/spinners.min.js"></script>
 
 <style>
-	
+
 	.foglioA4{
-		border:solid 1px;
-		width: 840px;
+		background-image:url('img/bg_lettera.png');
+		width: 836px;
 		height: 1210px;
 		margin-bottom: 30px;
+		position: relative;
+		top:0px;
+		left:0px;
 	}
 	
 	.relative{
@@ -35,10 +38,7 @@
 		position: absolute
 	}
 	
-	.logo{
-		top:30px;
-		left:30px;
-	}
+	
 	
 	.address_hole{
 		background-color: rgba(0,0,0,0.02);
@@ -48,13 +48,14 @@
 		left: 481px;
 		padding:10px 5px;
 		font-size: 13px;
+		font-family: Helvetica;
 	}
 	
 	.text{
 		top: 340px;
-		width: 630px;
+		width: 820px;
 		font-size: 13px;
-		left: 100px;
+		left: 10px;
 		line-height: 24px;
 		text-align: justify;
 		
@@ -65,17 +66,19 @@
 			background-color: white;
 		}
 		.foglioA4{
-			border: none;
+			
 		}
 		.buttons{
 			display: none;
+			height: 0px;
+			overflow: hidden;
 		}
 	}
 	
 </style>
 
 <body>
-	<div class="buttons"><button class="BUTTON green" onclick="location.href='stampaLettere.html'">stampa lettere</button><button class="BUTTON green" onclick="location.href='index.html'">vedi centri</button></div>
+	
 	<div id="general_container"></div>
 				
 </body>
@@ -99,34 +102,28 @@ function stampaLettere(result,options){
 	  		
 	  			html_lettera +="<div class='relative'>";
 	  				
-	  				html_lettera +="<div class='absolute logo'><img src='img/footer_carta_intestata.png' /></div>";
 	  				
-	  				html_lettera +="<div class='absolute address_hole'><div>"+centro.indirizzo+" - <font style='font-weight:bold; font-size:16px'>"+centro.city+"</font></div></div>";
 	  				
-	  				html_lettera +="<div class='absolute text'>"+
+	  				html_lettera +="<div class='absolute address_hole'><div>Spett.le<br>"+centro.indirizzo+" - <font style='font-weight:bold; font-size:16px'>"+centro.city+"</font></div></div>";
+	  				
+	  				//html_lettera +="<div class='absolute text'>"+
 	  				
 	  						"<div>Ch.mo Professore, Preg.mo Dottore, </br></br>"+
-	  						"Siamo lieti di presentarLe <b>TransplantManager</b>, un nuovo ed innovativo software per la gestione completa di un Programma Trapianti, in linea con gli standard JACIE e conforme alle leggi vigenti in merito, (in particolare "+
-	  						"<b>Decreto Legislativo n. 191 del  6 novembre 2007 e decreto legislativo n. 16  del  25 gennaio 2010</b> regolamentano <i>&#34;le norme di qualità e di sicurezza per la donazione, l'approvvigionamento, il controllo, la lavorazione, la conservazione, lo stoccaggio e la distribuzione di tessuti e cellule umani&#34;)</i> "+
+	  						"Siamo lieti di informarLa che, in occasione del GITMO 2013 che si terrà presso l’Hotel Michelangelo di Milano il 9 e 10 maggio p.v., presenteremo <b>TransplantManager</b>."+
+	  						"La invitiamo per tanto a visitare il nostro stand nel quale avrà la possibilità di <b>testare personalmente TransplantManager</b>."+
+	  						//"<br><br><b>TransplantManager</b>, un nuovo ed innovativo software per la gestione completa di un Programma Trapianti, in linea con gli standard JACIE e conforme alle leggi vigenti in merito, (in particolare "+
+	  						//"<b>Decreto Legislativo n. 191 del  6 novembre 2007 e decreto legislativo n. 16  del  25 gennaio 2010</b> regolamentano <i>&#34;le norme di qualità e di sicurezza per la donazione, l'approvvigionamento, il controllo, la lavorazione, la conservazione, lo stoccaggio e la distribuzione di tessuti e cellule umani&#34;)</i> "+
 	  						
 	  						
-	  						"<br><br><br>Con <b>TransplantManager</b> è possibile:<br></div>"+
+	  						//"<br><br><br>Con <b>TransplantManager</b> è possibile:<br></div>"+
 	  						
-	  						"<div><ul>"+
-	  							"<li>Gestire le tre Facility <b>(Clinica, Raccolta e Processazione)</b> che compongono l’intero programma trapianti  in maniera separata ma sinergica e coordinata;</li>"+
-	  							"<li>Seguire il flusso completo delle attività, dall'ingresso del paziente in reparto all'avvenuto attecchimento del trapianto;</li>"+
-	  							"<li>Gestire in maniera semplice la stampa e la compilazione di documenti ed etichette, compresi (su richiesta) i moduli MED-A e MED-B;</li>"+
-	  							"<li>Firmare digitalmente tutti i documenti che lo richiedono;</li>"+
-	  							"<li>Gestire in maniera integrata il magazzino scorte (in particolare di Raccolta e Processazione) garantendo la tracciabilità  dei reagenti, dei dispositivi  e del materiale utilizzato;</li>"+
-	  							"<li>Gestire lo stoccaggio dei contenitori criogenici;</li>"+
-	  							"<li>Tracciare tutte le operazioni effettuate da ogni singolo operatore.</li>"+
-	  						"</ul></div>"+
 	  						
-	  						"<div><br>Vorremmo informarLa, inoltre, che in occasione della <b>Riunione Nazionale GITMO</b> che si terrà presso l’Hotel Michelangelo di  Milano il 9 e 10 maggio p.v.,  saremo presenti con uno stand dedicato dove avrà la possibilità di <b>testare personalmente TransplantManager.</b></div>"+
-	  						"<div>Sarà inoltre possibile richiedere un <b>account personalizzato</b> per l'accesso alla versione dimostrativa di Transpalnat Manager pubbicata on line, in modo da poterne prendere visione anche successivamente all'evento.</div>"+
-	  						"<div style='float:right;font-weight:bold'><br><br><br>www.transplantmanager.com <br> info@transplantmanager.com</div>"+
+	  						
+	  						//"<div>Sarà inoltre possibile richiedere un <b>account personalizzato</b> per l'accesso alla versione dimostrativa di TranspalnatManager pubblicata on line, in modo da poterne prendere visione anche successivamente all'evento.</div>"+
+	  						//"<div style='float:right;font-weight:bold'><br><br><br>www.transplantmanager.com <br> info@transplantmanager.com</div>"+
 	  				
 	  				"</div>";
+	  				
 	  				
 	  			html_lettera +="</div>";
 	  			

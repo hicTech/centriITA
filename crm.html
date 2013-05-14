@@ -1,0 +1,71 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">		
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<title> CRM - Centri ITA </title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/button/button.css">
+<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?v=3.5&sensor=false"></script>-->
+<script type="text/javascript" src="JSON.js"></script>
+
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="hicGoogleDocsParser.js"></script>
+<script type="text/javascript" src="underscore/underscore.js"></script>
+<script type="text/javascript" src="underscore/_plus.js"></script>
+
+<!--[if lt IE 9]>
+  <script type="text/javascript" src="spinner/spinners.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript" src="spinner/spinners.min.js"></script>
+
+
+<body>
+	<div style="width:100%">
+		<table class="TABLE" id="table">
+			
+		</table>
+	</div>	
+</body>
+	
+	
+<script>
+
+
+hicGoogleDocsParser({
+		"url":"https://docs.google.com/spreadsheet/pub?key=0AjlzvjiyIeVzdHdLSWxlTUZPUWgwMjRmMVh6MFNmMWc&output=html",
+		"callback":"stampaCentri",
+		"loadingTarget":"#table",
+		"target" : "#table"
+	});
+	
+function stampaCentri(result,options){
+	
+	var google_contacts_csv = '';       
+	var html_centri = "";
+	
+	html_centri += "<tr>";
+	_.each(result.th,function(intestazione){
+		html_centri +="<th>"+intestazione+"</th>";
+	})
+	html_centri += "</tr>";
+	
+	
+	_.each(result.trs,function(riga){
+		html_centri += "<tr>";
+		
+		_.each(riga,function(valore){
+			html_centri += "<td>"+valore+"</td>";
+		})
+		
+		html_centri += "</tr>";
+	});
+	
+	$(options.target).append(html_centri);
+	
+
+	  
+	  
+}	
+
+</script>
+

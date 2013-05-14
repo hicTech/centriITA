@@ -39,6 +39,7 @@ hicGoogleDocsParser({
 	});
 	
 function stampaCentri(result,options){
+	
 	var google_contacts_csv = '';       
 	var html_centri = "";
 	
@@ -62,50 +63,29 @@ function stampaCentri(result,options){
 	$(options.target).append(html_centri);
 	
 
-	/*
-	 *  CSV per importazione google contacts
-	 */
-		
-	
-	  /*
-	  _.each(result,function(centro,index){
-	  	
-	  		
-	  		var team = $("<div>"+ centro.team +"</div>");
-	  		
-	  		
-	  		html_centri +="<tr>";
-	  		
-	  			html_centri +="<td>"+ parseInt(index+1) +"</td>";
-	  			html_centri +="<td><a href='"+ centro.url +"' target='_blank'>"+ centro.url +"</a></td>";
-	  			html_centri +="<td>"+ centro.city +"</td>";
-	  			html_centri +="<td>"+ centro.team +"</td>";
-	  			html_centri +="<td>"+ centro.password +"</td>";
-	  			html_centri +="<td>"+ centro.persons +"</td>";
-	  			html_centri +="<td>"+ centro.address +"</td>";
-	  			html_centri +="<td>"+ centro.tel +"</td>";
-	  			html_centri +="<td>"+ centro.fax +"</td>";
-	  			html_centri +="<td><a href='mailto:"+ centro.mail  +"' targert='_blank'>"+ centro.mail +"</a></td>";
-	  		
-	  		html_centri +="</tr>";
-	  		
-	  		var contact_name = (_.is(centro.address))? centro.address.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";     //rimuovo spazi bianchi multipli e spazi bianchi iniziali 
+
+	  _.each(result.trs,function(centro,index){
+	  
+	  		var contact_name = (_.is(centro.centro))? centro.centro.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";     //rimuovo spazi bianchi multipli e spazi bianchi iniziali 
 	  		var contact_mail = (_.is(centro.mail))? centro.mail.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
 	  		var contact_tel = (_.is(centro.tel))? centro.tel.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
+	  		var contact_fax = (_.is(centro.fax))? centro.fax.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
 	  		var contact_url = (_.is(centro.url))? centro.url.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
-	  		var contact_persons = (_.is(centro.persons))? centro.persons.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
+	  		var contact_persons = (_.is(centro.persone))? centro.persone.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
+	  		var contact_indirizzo = (_.is(centro.indirizzo))? centro.indirizzo.replace(/^\s+|\s+$/g,'').replace(/\s{2,}/g, ' ') : "";
 	  		                      
-	  		google_contacts_csv +='"'+contact_name.substr(0,50)+'",,,,,,,,,,,,,,,,,,,,,,,,,,* My Contacts ::: Centri Italiani,* Work,"'+contact_mail+'",Work,"'+contact_tel+'",Work Fax,"'+centro.fax+'",Work,"'+contact_name+'","'+contact_name.substr(0,50)+'",,,,,,,Profile,"'+contact_url+'",città,"'+centro.city+'",team,"'+contact_persons+'"'
+	  		google_contacts_csv +='"'+contact_name+'",,,,,,,,,,,,,,,,,,,,,,,,,,* My Contacts ::: Centri Italiani,* Work,"'+contact_mail+'",Work,"'+contact_tel+'",Work Fax,"'+contact_fax+'",Indirizzo,"'+contact_indirizzo+'","'+contact_name+'",,,,,,,Profile,"'+contact_url+'",città,"'+centro.city+'",team,"'+contact_persons+'"'
 	  		google_contacts_csv +="\n";
 	  
-	  		
+	  		// esempio
+	  		// A.O.R.N.SAN. GMOSCATI Ematologia 83100 Avellino,A.,O.R.N.SAN. GMOSCATI Ematologia 83100,Avellino,,,,,,,,,,,,,,,,,,,,,,,Importati il giorno 19/04/13 ::: Centri Italiani ::: * My Contacts,* Work,n.cantore@virgilio.it,Work,39-0825-203-235,Work Fax,39-0825-203-235,Indirizzo,Ematologia 83100 Avellino,Ematologia,Avellino,,,83100,,,Profile,http://www2.clinicalresearch.nl/members/cic.asp?cic=789&team=1,città,Avellino,team,"Storti, Gabriella-Cantore, Nicola-Volpe, Silvestro-Egidio, Fina"
 
 	  });
 	  
 	  console.log(google_contacts_csv);
-	  console.log(_.toStr(result));
+	  //console.log(_.toStr(result));
 	  
-	  */
+	  
 	  
 }	
 

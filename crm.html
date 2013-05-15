@@ -12,6 +12,45 @@
 <script type="text/javascript" src="underscore/underscore.js"></script>
 <script type="text/javascript" src="underscore/_plus.js"></script>
 
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+<style>
+	
+	#map-canvas {
+        margin: 0;
+        padding: 0;
+        height: 620px;
+        width: 400px;
+      }
+	
+</style>
+
+ <script>
+var map;
+var latLon = new google.maps.LatLng(43.0792413,12.3555061);
+var geocoder = new google.maps.Geocoder();
+function initialize() {
+  var mapOptions = {
+    zoom: 6,
+    center: new google.maps.LatLng(42.3,12.6555061),
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    disableDefaultUI:true
+  };
+  map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+      
+      
+
+
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+
+
+    </script>
+    
+
 <!--[if lt IE 9]>
   <script type="text/javascript" src="spinner/spinners.min.js"></script>
 <![endif]-->
@@ -20,11 +59,13 @@
 
 
 <body>
-	<div style="width:100%">
+	<div style="display:table-cell" id="map-canvas"></div>
+	<div style="display:table-cell">
 		<table class="TABLE" id="table">
 			
 		</table>
 	</div>	
+	
 </body>
 	
 	
@@ -62,8 +103,26 @@ function stampaCentri(result,options){
 	
 	$(options.target).append(html_centri);
 	
-
-	  
+	_.each(result.trs,function(riga){
+		
+		var infoWindow = new google.maps.InfoWindow({ 
+			content: "<b>"+riga.city+"</b> <br> "+riga.referente+" "+riga.foto
+		});
+		
+		
+		 
+		geocoder.geocode({ 'address': riga.city}, function(results, status) {
+							var marker = new google.maps.Marker({
+								map: map,
+								position: results[0].geometry.location
+							});
+							google.maps.event.addListener(marker, 'click', function() {					
+								infoWindow.open(map, marker); 
+						    });
+		});
+	});                             
+                                         
+                                      
 	  
 }	
 
